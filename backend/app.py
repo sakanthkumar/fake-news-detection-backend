@@ -73,6 +73,13 @@ if me_bp is not None:
 # Keep heavy model loading as you had it. If startup is slow, consider lazy-loading these.
 tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-multilingual-cased")
 bert_model = DistilBertModel.from_pretrained("distilbert-base-multilingual-cased")
+
+# QUANTIZATION: This reduces model size by ~60% (Float32 -> Int8)
+# Essential for Render Free Tier (512MB RAM limit)
+bert_model = torch.quantization.quantize_dynamic(
+    bert_model, {torch.nn.Linear}, dtype=torch.qint8
+)
+
 bert_model.eval()
 device = torch.device("cpu")
 bert_model.to(device)
