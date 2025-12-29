@@ -34,4 +34,4 @@ langdetect
 torch
 transformers
 # sentence-transformers (Removed)
-lime
+# lime (Removed for OOM fix)
