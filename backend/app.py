@@ -71,24 +71,37 @@ if me_bp is not None:
 
 # --- Your existing ML / helper initialization ---
 # Keep heavy model loading as you had it. If startup is slow, consider lazy-loading these.
-tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-multilingual-cased")
-bert_model = DistilBertModel.from_pretrained("distilbert-base-multilingual-cased")
-
-# QUANTIZATION: This reduces model size by ~60% (Float32 -> Int8)
-# Essential for Render Free Tier (512MB RAM limit)
-bert_model = torch.quantization.quantize_dynamic(
-    bert_model, {torch.nn.Linear}, dtype=torch.qint8
-)
-
-bert_model.eval()
+# --- ML Global Variables (Lazy Loaded) ---
+tokenizer = None
+bert_model = None
+clf = None
 device = torch.device("cpu")
-bert_model.to(device)
 
-try:
-    clf = joblib.load("distilbert_classifier.pkl")
-except Exception as e:
-    clf = None
-    print(f"❌ Failed to load classifier: {e}")
+def get_model():
+    global tokenizer, bert_model, clf
+    if bert_model is None:
+        print("⏳ Loading DistilBERT model (Lazy Load)...")
+        tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-multilingual-cased")
+        model_fp32 = DistilBertModel.from_pretrained("distilbert-base-multilingual-cased")
+        
+        # QUANTIZATION: Reduce memory by ~60%
+        bert_model = torch.quantization.quantize_dynamic(
+            model_fp32, {torch.nn.Linear}, dtype=torch.qint8
+        )
+        bert_model.eval()
+        bert_model.to(device)
+        print("✅ DistilBERT Loaded & Quantized.")
+
+    if clf is None:
+        try:
+            print("⏳ Loading Classifier...")
+            clf = joblib.load("distilbert_classifier.pkl")
+            print("✅ Classifier Loaded.")
+        except Exception as e:
+            print(f"❌ Failed to load classifier: {e}")
+            clf = None
+    
+    return tokenizer, bert_model, clf
 
 BANNED_WORDS = []
 def contains_inappropriate_content(headline):
@@ -181,6 +194,7 @@ def save_prediction(headline, prediction, confidence, username=None):
 
 def transform_headline_single(headline):
     # single headline -> embedding numpy array
+    get_model() # Ensure loaded
     tokens = tokenizer(headline, return_tensors="pt", padding=True, truncation=True, max_length=512)
     tokens = {key: val.to(device) for key, val in tokens.items()}
     with torch.no_grad():
@@ -190,6 +204,7 @@ def transform_headline_single(headline):
 
 def batch_transform_headlines(texts):
     # batch transform to embeddings using tokenizer batch mode
+    get_model() # Ensure loaded
     if not texts:
         return np.zeros((0, bert_model.config.hidden_size))
     toks = tokenizer(texts, return_tensors="pt", padding=True, truncation=True, max_length=512)
@@ -426,6 +441,7 @@ def human_readable_explanation(lime_list):
 # ===== Prediction Core =====
 def predict_raw(headline):
     """Basic classifier call (no further verification). Returns (prediction_label, confidence_float)."""
+    get_model() # Ensure loaded
     if clf is None:
         return "error", 0.0
     emb = transform_headline_single(headline)
@@ -441,6 +457,7 @@ def predict_proba_texts(texts):
     Given a list of raw text strings, return predict_proba array from the fitted classifier.
     This is used by LIME which passes perturbed text lists.
     """
+    get_model() # Ensure loaded
     if clf is None:
         # return uniform probabilities if clf missing
         n = len(texts)
