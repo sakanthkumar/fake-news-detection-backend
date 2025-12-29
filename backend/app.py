@@ -5,7 +5,7 @@ from typing import List, Tuple
 import re
 import joblib, torch, numpy as np, requests, hashlib, jwt
 from transformers import DistilBertTokenizer, DistilBertModel
-from sentence_transformers import SentenceTransformer, util
+# from sentence_transformers import SentenceTransformer, util
 import mysql.connector
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
@@ -90,11 +90,14 @@ def contains_inappropriate_content(headline):
     return any(word in headline.lower() for word in BANNED_WORDS)
 
 # ===== Semantic Similarity Model (optional, used elsewhere) =====
-try:
-    similarity_model = SentenceTransformer("all-MiniLM-L6-v2")
-except Exception as e:
-    similarity_model = None
-    print(f"⚠️ SentenceTransformer load failed: {e}")
+# ===== Semantic Similarity Model (optional) =====
+# REMOVED for Render Free Tier (Memory Optimization)
+similarity_model = None
+# try:
+#     similarity_model = SentenceTransformer("all-MiniLM-L6-v2")
+# except Exception as e:
+#     similarity_model = None
+#     print(f"⚠️ SentenceTransformer load failed: {e}")
 
 # ===== Database Config =====
 DB_CONFIG = {
