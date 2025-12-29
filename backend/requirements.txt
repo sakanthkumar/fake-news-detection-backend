@@ -1,4 +1,4 @@
-# requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
 
 # Core ML + Data
 numpy
@@ -16,8 +16,9 @@ flask-cors
 requests
 beautifulsoup4
 
-# Database (if you use SQLite in Python)
+# Database
 sqlalchemy
+mysql-connector-python
 
 # Utils
 joblib
@@ -26,11 +27,10 @@ colorama
 python-dotenv
 pyjwt
 APScheduler
-mysql-connector-python
 langdetect
 
-# ML (Heavy)
-torch --extra-index-url https://download.pytorch.org/whl/cpu
+# ML (Heavy) - Will use CPU wheels from above index
+torch
 transformers
 sentence-transformers
 lime
