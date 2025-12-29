@@ -14,6 +14,11 @@ venv_311/
 .pytest_cache/
 .coverage
 htmlcov/
+*.zip
+*.npy
+*.pkl
+predictions.db
+
 
 # Editor
 .vscode/
