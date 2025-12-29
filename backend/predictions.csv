@@ -1,0 +1,569 @@
+id,headline,prediction,confidence,timestamp
+1,"Salman Mirza, Sahibzada Farhan Star In Pakistan's Win But Bangladesh Take T20I Series",REAL,0.999032,2025-07-24 22:30:29
+2,Zimbabwe vs New Zealand Highlights T20I Tri-Series: New Zealand Beat Zimbabwe To Keep Unbeaten Record Intact In T20I Tri-Series,REAL,0.999837,2025-07-24 22:30:30
+3,Farmer Couple Dies By Suicide In Maharashtra,REAL,0.970173,2025-07-24 22:30:30
+4,NASA Engineers Rescue JunoCam with Deep-Space Heating Hack,REAL,0.968036,2025-07-24 22:30:30
+5,Wrestling Icon Hulk Hogan Dies Aged 71,REAL,0.991166,2025-07-24 22:30:30
+6,Hulk Hogan Dies At 71. Report Claims WWE Legend's Cause Of Death Is...,FAKE,0.963265,2025-07-24 22:30:30
+7,'Worm In Food Video Staged For Rs 25 Lakh Extortion': Rameshwaram Cafe,REAL,0.999625,2025-07-24 22:30:31
+8,"Hulk Hogan, WWE's Iconic Superstar, Dies At 71 After Cardiac Arrest",FAKE,0.507587,2025-07-24 22:30:31
+9,Why Trump Makes A U-Turn On Musk And Wants 'Elon To Thrive Like Never Before',REAL,0.999969,2025-07-24 22:30:31
+10,"Rising Rocket Launches May Delay Ozone Layer Recovery, Study Finds",REAL,0.999668,2025-07-24 22:30:32
+11,Delhi Likely To Witness Rain With Thunderstorms Tomorrow: Weather Office,REAL,0.999953,2025-07-24 22:30:32
+12,"India-UK FTA Deal: No Pricing Decision Taken Yet, Says JLR",REAL,0.999951,2025-07-24 22:30:32
+13,"MSI GeForce RTX 50 Series: Your Gateway to Next-Generation Gaming, Creativity, and Professional Excellence",REAL,0.967465,2025-07-24 22:30:32
+14,Air India Under Scrutiny As Government Orders Safety Overhaul Within A Month,REAL,0.974321,2025-07-24 22:30:32
+15,"Sumit Nagal Beats Max Houkes, Enters Tampere Open Quarterfinals",REAL,0.994371,2025-07-24 22:30:33
+16,"India vs England Live Score, 4th Test Day 2: Ravindra Jadeja Strikes, India Finally Get A Breakthrough",REAL,0.871072,2025-07-24 22:30:33
+17,"Bajaj Finance Q1 Results: From Growth Outlook To MSME Stress, Here Are Five Key Takeaways",REAL,0.988674,2025-07-24 22:30:33
+18,"Tesla Shares Plunge Nearly 10% After Weak Quarterly Earnings; Profit, Sales Miss Estimates",REAL,0.869129,2025-07-24 22:30:34
+19,"Worm Found In Food At Pune University's Canteen, Students Demand Strict Action",REAL,0.989622,2025-07-24 22:30:34
+20,"India-UK FTA: Goa's Feni, Kerala's Toddy To Get Shelf Space In British Stores",REAL,0.999727,2025-07-24 22:30:34
+21,Hulk Hogan Dies At 71,REAL,0.790727,2025-07-24 22:33:45
+22,Sophie Cunningham,1,0.983961,2025-07-24 23:01:14
+23,Data Point Podcast,0,0.580047,2025-07-24 23:01:14
+24,"Morning Digest: Bihar BJP leaders bat for Nitish Kumar as Dhankhar’s successor; ECI says over 21 lakh enumeration forms yet to be received in Bihar, and more",1,0.96234,2025-07-24 23:01:14
+25,"Top news of the day: Supreme Court leaves Yemen negotiation decision to Centre in Nimisha Priya case; Government not in picture over Justice Yashwant Varma removal, says Union Law Minister, and more",1,0.971437,2025-07-24 23:01:15
+26,Free Trade Agreement,1,0.998732,2025-07-24 23:01:15
+27,Arvind Kejriwal Exclusive Interview,1,0.796215,2025-07-24 23:01:15
+28,"Morning Digest: Modi begins U.K. visit, trade deal to be inked today; after 5 years, India to issue visas to Chinese tourists, and more",1,0.950284,2025-07-24 23:01:16
+29,"Prithviraj says Ibrahim deserved debut with Sarzameen, not Nadaaniyan",1,0.985037,2025-07-24 23:01:16
+30,"Amit Shah unveils new national cooperative policy, pitching for inclusive growth",1,0.991189,2025-07-24 23:01:16
+31,Columbia University,1,0.981767,2025-07-24 23:01:16
+32,"Trump hits brakes on Obama's speed rule: Limit on large trucks, buses removed; what changes",0,0.867778,2025-07-24 23:01:17
+33,"Hulk Hogan's death: Health issues, cardiac arrest, and the life he left behind",0,0.998738,2025-07-24 23:01:17
+34,Children as young as 2: Sex trafficking ring busted in Alabama; 7 held,0,0.977006,2025-07-24 23:01:17
+35,Digital Subscription,1,0.794508,2025-07-24 23:01:17
+36,"Woman seeks INR 12 Cr alimony, BMW, luxury flat after 18-month marriage: SC says, ""You're educated, earn yourself""",0,0.585501,2025-07-24 23:01:18
+37,"India-UK trade deal: What gets cheaper for you after FTA? Check listIndia and the UK have formalized a free trade agreement, aiming to double bilateral trade to $112 billion by 2030. The deal grants duty-free access to 99% of Indian exports to Britain, boosting sectors like textiles and leather. Simultaneously, prices for British automobiles and whiskey will decrease in India.",1,0.90475,2025-07-24 23:01:19
+38,"Justice served: 59-year-old convicted for sexual assault on minor, sentenced to 20 years",0,0.994499,2025-07-24 23:01:19
+39,International News,1,0.884444,2025-07-24 23:01:19
+40,Editor’s Note: Putting Muslims in their place?,0,0.797569,2025-07-24 23:01:19
+41,Prateeksha on women rewriting Bollywood’s musical score - Exclusive,1,0.98786,2025-07-24 23:01:20
+42,"Dhankhar resignation: BJP begins search for next Vice-President, party insider could make the cut",1,0.882863,2025-07-24 23:01:20
+43,"Health Matters
+									Ramya Kannan writes to you on getting to good health, and staying there
+
+SEE ALL NEWSLETTERS",0,0.980736,2025-07-24 23:01:20
+44,Bengaluru Bomb Scare,1,0.993912,2025-07-24 23:01:20
+45,Health & Fitness,1,0.763307,2025-07-24 23:01:21
+46,"RJ Mahvash-Chahal, Ahaan-Saiyaara, Kartik-Sreeleela: Top 5 news",1,0.964748,2025-07-24 23:01:21
+47,The Hulkamania begins: Throwback to the times when Hulk Hogan won his first WWF Championship,0,0.921003,2025-07-24 23:01:22
+48,"Top News of the Day: BJP begins search for next Vice-President, insider likely pick; India and U.K. sign the Free Trade Agreement, and more",1,0.666035,2025-07-24 23:01:22
+49,"Hulk Hogan's personal life: Net worth, relationships, and more - what fans need to knowWrestling legend Hulk Hogan has reportedly died at 71 due to cardiac arrest complications following a recent surgery. Hogan, known for his significant impact on WWE and WrestleMania, had a complex personal life marked by multiple marriages and a VH1 reality show. In this article, let's have a look at this net worth and family.",0,0.999499,2025-07-24 23:01:23
+50,Institutional Subscriber,1,0.996353,2025-07-24 23:01:23
+51,"Labour Welfare Dept. to grant ₹20,000 subsidy to gig workers to buy e-scooters",1,0.984927,2025-07-24 23:01:23
+52,Amitabh Bachchan Car Tax News,1,0.992553,2025-07-24 23:01:24
+53,GTA San Andreas Cheat Codes,1,0.744711,2025-07-24 23:01:24
+54,Alphabet Q2 report,1,0.836718,2025-07-24 23:01:24
+55,Saiyaara Box Office Collection,0,0.895273,2025-07-24 23:01:24
+56,"Know why blueberry is considered as the best for lowering cholesterol, according to cardiologists",1,0.852779,2025-07-24 23:01:24
+57,chhatrapati sambhajinagar,1,0.997163,2025-07-24 23:01:25
+58,Entertainment news,1,0.624115,2025-07-24 23:01:25
+59,India vs England Scorecard,1,0.99879,2025-07-24 23:01:25
+60,Thai and Cambodian forces clash as escalating border dispute leaves at least 11 dead,1,0.999624,2025-07-24 23:01:25
+61,Personality Test,1,0.81693,2025-07-24 23:01:26
+62,Hulk Hogan's wife had denied reports of him being in coma,0,0.872978,2025-07-24 23:01:26
+63,Crossword + Free Games,0,0.754254,2025-07-24 23:01:26
+64,Androgenetic Alopecia,1,0.997185,2025-07-24 23:01:26
+65,Decoding ECI’s counter affidavit on SIR | Explained,0,0.526409,2025-07-24 23:01:26
+66,Hina Khan’s regal look redefines festive glam,1,0.807176,2025-07-24 23:01:27
+67,Arunachal Pradesh,1,0.999971,2025-07-24 23:01:27
+68,Garena Free Fire Update,1,0.698226,2025-07-24 23:01:27
+69,"Sports, IPL 2025 News",1,0.981741,2025-07-24 23:01:28
+70,"Justin Fields injury scare: Jets QB carted off with leg pain; season opener now in doubt During the Jets' training camp on July 24, 2025, Justin Fields suffered a right leg injury, necessitating his removal from the field via cart. The severity of the injury is currently unknown, but veteran Tyrod Taylor is poised to step in as quarterback if Fields is sidelined. The Jets' coaching staff expresses hope that the injury is not serious.",0,0.547944,2025-07-24 23:01:28
+71,"From Baa, Gomzi to Ansh: 5 fan-loved characters that will be missed in Kyunki Saans Bhi Kabhi Bahu Thi 2",1,0.550215,2025-07-24 23:01:29
+72,"Top News of the Day: Former Kerala CM V.S. Achuthanandan passes away at 101; Parliament Monsoon Session witnesses disruptions over Pahalgam attack, Operation Sindoor, and more",1,0.959958,2025-07-24 23:01:29
+73,Readers Editor-Terms of Reference,1,0.992777,2025-07-24 23:01:29
+74,Thiruvananthapuram,1,0.985429,2025-07-24 23:01:30
+75,History & Culture,1,0.960482,2025-07-24 23:01:30
+76,"'No current plans': Centre on removing 'socialism', 'secularism' from PreambleThe central government clarified on Thursday that there are ""no current plans"" to remove 'socialism' and 'secularism' from the Preamble, despite recent calls for review. Union Law Minister Arjun Ram Meghwal stated that any changes would require broad consensus, which is not initiated yet.",1,0.99718,2025-07-24 23:01:30
+77,Platinum Rate Today,1,0.825169,2025-07-24 23:01:31
+78,Donald Trump Tariffs,1,0.986148,2025-07-24 23:01:31
+79,"'Enforcement with empathy': Income tax department working on rules, forms for new tax bill, says CBDT chief",1,0.998321,2025-07-24 23:01:31
+80,India-UK trade deal,1,1.0,2025-07-24 23:01:31
+81,"Top news of the day: Trump claims ‘five jets shot down’ in India-Pakistan conflict; India-EFTA trade pact to be implemented from October, and more",0,0.601048,2025-07-24 23:01:32
+82,"Hulk Hogan's wife, son, and daughter: The family the WWE legend left behind",0,0.851145,2025-07-24 23:01:32
+83,Parliament Monsoon Session: Opposition protests stall proceedings for fourth day,1,0.999854,2025-07-24 23:01:32
+84,Cancel Patriarchy,1,0.880285,2025-07-24 23:01:32
+85,Saving Our Stripes,0,0.61555,2025-07-24 23:01:32
+86,India-UK trade deal: What gets cheaper for you after the free trade agreement? Check list,1,0.907227,2025-07-24 23:01:33
+87,Todd Nelson's arrival promises fresh power-play vision for the Pittsburgh Penguins,1,0.935121,2025-07-24 23:01:33
+88,Classifieds - Print,1,1.0,2025-07-24 23:01:33
+89,"Minorities Commission reviews projects, receives petitions in Madurai",1,0.957773,2025-07-24 23:01:33
+90,"‘Minor’ increase in sick reporting by pilots at Air India following the June 12 crash, says government",1,0.719627,2025-07-24 23:01:34
+91,"Hulk Hogan’s real name and the life behind the fameHulk Hogan, also known as Terry Gene Bollea, has passed away at 71, potentially due to cardiac arrest. While famous for his wrestling persona, Hogan's life involved struggles with steroids and painkillers. Bollea's transformation into Hulk Hogan was a strategic creation, yet he legally remained Terry Bollea for many years, with the Hulk Hogan name becoming a cultural phenomenon.",0,0.996541,2025-07-24 23:01:34
+92,Good Health Hunting,1,0.801662,2025-07-24 23:01:34
+93,"MCC violation case: Non bailable warrant issued against BJP's Bandi Sanjay Kumar A Hyderabad court issued a Non-Bailable Warrant against BJP leader Bandi Sanjay Kumar. This action occurred because he did not attend court. The case relates to a 2021 incident in Huzurabad. It involves alleged violations of election rules. Sanjay's lawyer cited parliament sessions as the reason for his absence. The court, however, proceeded due to prior missed appearances.",1,0.870924,2025-07-24 23:01:35
+94,Advertise With Us,1,0.662078,2025-07-24 23:01:35
+95,Hari Hara Veera Mallu Movie Review,0,0.629375,2025-07-24 23:01:35
+96,"Fighter jets: Flying towards scary parity with Pakistan; are drones the solution?With the last MiG-21s getting phased out, IAF will have almost the same number of fighter squadrons as Pakistan’s air force. And it can get worse. Here’s why",1,0.552097,2025-07-24 23:01:36
+97,Hulk Hogan Relationships,1,0.638772,2025-07-24 23:01:36
+98,The Hindu Bureau,1,0.954569,2025-07-24 23:01:36
+99,Thai and Cambodian Clash,1,0.999989,2025-07-24 23:01:36
+100,Monsoon Travel Tips,1,0.988206,2025-07-24 23:01:37
+101,Young World Club,1,0.996418,2025-07-24 23:01:37
+102,"Varun Badola: I thought if not flooded, I’d at least be offered something meaningful after Mere Dad Ki Dulhan",1,0.88513,2025-07-24 23:01:37
+103,Print Subscription,1,0.654466,2025-07-24 23:01:37
+104,Ratan Thiyam Death News,1,0.81637,2025-07-24 23:01:38
+105,The Hindu Centre,0,0.710092,2025-07-24 23:01:38
+106,Silver Rate Today,1,0.851173,2025-07-24 23:01:38
+107,Hulk Hogan Passes Away,0,0.735614,2025-07-24 23:01:38
+108,SEE ALL NEWSLETTERS,0,0.865525,2025-07-24 23:01:38
+109,Create Your Own Ad,0,0.562211,2025-07-24 23:01:38
+110,IND vs ENG: Anshul Kamboj denies Ben Duckett century for maiden Test wicket - watch,1,0.996906,2025-07-24 23:01:39
+111,UK Immigration Rules,1,0.999861,2025-07-24 23:01:39
+112,NYT Connections Today,1,0.979351,2025-07-24 23:01:39
+113,"Chess | FIDE Women's World Cup: Koneru Humpy pulls off thrilling win, to face Divya Deshmukh in final",1,0.951917,2025-07-24 23:01:39
+114,"First Day First Show
+									News and reviews from the world of cinema and streaming.
+
+SEE ALL NEWSLETTERS",0,0.99514,2025-07-24 23:01:40
+115,India and U.K. sign the Free Trade Agreement,1,0.999883,2025-07-24 23:01:40
+116,"Morning Digest: Supreme Court to hear Presidential reference on President, Governor’s powers on July 22; INDIA bloc resolves to question foreign policy ‘failures’ of government, and more",1,0.881107,2025-07-24 23:01:40
+117,Subscribe to Newsletters,1,0.883712,2025-07-24 23:01:40
+118,Dadra Nagar Haveli,1,0.93413,2025-07-24 23:01:41
+119,"IND vs ENG Test series: Rishabh Pant advised six weeks’ rest, ruled out of series against England",1,0.977823,2025-07-24 23:01:41
+120,Authors & Contributors,1,0.683877,2025-07-24 23:01:41
+121,Advertise with us,1,0.662078,2025-07-24 23:01:41
+122,June Bank Holidays,1,0.99997,2025-07-24 23:01:41
+123,Stock Market Holidays,1,0.999785,2025-07-24 23:01:42
+124,Rishabh Pant Injury,1,0.994966,2025-07-24 23:01:42
+125,Birthright Citizenship,1,0.962704,2025-07-24 23:01:42
+126,"Top news of the day: Opposition says Jagdeep Dhankhar’s shock resignation prompts search for reasons; Air India says no issues found in fuel switch locking system on Boeing fleet, and more",1,0.996632,2025-07-24 23:01:42
+127,Showdown over Bihar SIR: Oppn unites to raise pitch; JD(U) sends notice to MP who said EC move will raise questions on 2024 LS verdict,1,0.583362,2025-07-24 23:01:43
+128,AI 171 crash fallout: Increase in sick leaves by pilots; peaked at 112 on June 16,1,0.730223,2025-07-24 23:01:43
+129,"KVB Q1 net profit up 14%, announces 1:5 bonus issue",1,0.94571,2025-07-24 23:01:43
+130,"Weeks before his shocking death, Hulk Hogan's wife Sky denied reports of coma; claimed his heart was strong",0,0.872457,2025-07-24 23:01:44
+131,Mumbai Ammonia Gas Leak,1,0.990207,2025-07-24 23:01:44
+132,"Donald Trump: Everyone is saying I will Destroy Elon Musk's companies, but this is not so, I want Elon to ...",0,0.998285,2025-07-24 23:01:44
+133,When is Humpy vs Divya in the final? What is the prize money?,1,0.770039,2025-07-24 23:01:44
+134,"India-UK trade deal: Exports, jobs and more - FTA in 10 big numbersThe India-UK trade deal marks a significant milestone, granting 99% of Indian exports duty-free access to the UK market. This agreement is poised to boost bilateral trade by £25.5 billion, reducing tariffs on various sectors and fostering growth in textiles, agriculture, engineering, and pharmaceuticals.",1,0.975664,2025-07-24 23:01:45
+135,"WWE: Legendary wrestler Hulk Hogan dead at 71, reports US media",1,0.600907,2025-07-24 23:01:45
+136,Stock Market Live Updates,1,0.910657,2025-07-24 23:01:45
+137,"The birthday letter that set off a political firestorm A 2003 birthday scrapbook for Jeffrey Epstein, featuring a nude sketch and a cryptic note allegedly signed by Donald Trump, has ignited a political firestorm. The Wall Street Journal's publication of the note led to a $20 billion lawsuit from Trump, who denies its authenticity. The DOJ confirmed Trump's name appears in Epstein-related files, contradicting his earlier denials.",0,0.995196,2025-07-24 23:01:46
+138,Automatic number plate recognition cameras launched in Madurai,1,0.875481,2025-07-24 23:01:46
+139,"Trump, Epstein and a Doodle: The birthday letter that set off a political firestorm - that is burning MAGA",0,0.791028,2025-07-24 23:01:46
+140,Terms of Use and Grievance Redressal Policy,1,0.992645,2025-07-24 23:01:47
+141,Bookstore & Special Publications,0,0.967163,2025-07-24 23:01:47
+142,"Morning Digest: Trump sues Murdoch, WSJ over Epstein report; MEA tells EU that India doesn’t accept unilateral measures in response to Russia trade sanctions, and more",1,0.692163,2025-07-24 23:01:47
+143,The Hindu Best Places to Work,1,0.816078,2025-07-24 23:01:47
+144,thiruvananthapuram,1,0.985429,2025-07-24 23:01:48
+145,"LIV Golf’s The Duels in the UK: Full schedule, how to watch, players, and streaming details",0,0.648801,2025-07-24 23:01:48
+146,‘HR cost in Mangaluru is 30-35% lower than tier 1 cities’,1,0.811863,2025-07-24 23:01:48
+147,High Cortisol Symptoms,1,0.997332,2025-07-24 23:01:48
+148,Saiyaara Movie Review,0,0.564596,2025-07-24 23:01:49
+149,Justin Fields Injury,0,0.971633,2025-07-24 23:01:49
+150,Maareesan Movie Review,0,0.760173,2025-07-24 23:01:49
+151,LIVE IND vs ENG Live: Kamboj picks maiden Test wicket; both England openers dismissed,1,0.985251,2025-07-24 23:01:49
+152,"Thailand-Cambodia clash: How Hindu temple is at centre of deadly border disputeTensions between Thailand and Cambodia have escalated into deadly violence along their contested border, marked by exchanges of fire, airstrikes, and diplomatic expulsions. The conflict, rooted in a century-old dispute over the Preah Vihear temple and surrounding land, has seen both nations accusing each other of aggression.",1,0.995611,2025-07-24 23:01:50
+153,Alimony Case India,1,0.948146,2025-07-24 23:01:50
+154,Operation Sindoor,0,0.826133,2025-07-24 23:01:51
+155,Chronic Inflammation,1,0.995259,2025-07-24 23:01:51
+156,August Long Weekend 2025,0,0.839052,2025-07-24 23:01:51
+157,"The Hindu On Books
+									Books of the week, reviews, excerpts, new titles and features.
+
+SEE ALL NEWSLETTERS",1,0.874542,2025-07-24 23:01:51
+158,"Pressures build: Donald Trump’s tariffs, Big Beautiful Bill may play party pooper for India’s IT sector; here’s how",1,0.760823,2025-07-24 23:01:51
+159,"'Walking corpses': Over 100 dead of starvation, says UNRWA; India backs aid push in Gaza",1,0.958071,2025-07-24 23:01:52
+160,Travel Destinations,1,0.892411,2025-07-24 23:01:52
+161,"'Act against those who misuse freedom': PM Modi to Starmer on Khalistan threat in UKPrime Minister Modi urged his UK counterpart to act against extremist ideologies exploiting democratic freedoms, amidst rising pro-Khalistani influence in Britain. Modi emphasized the need to hold accountable those who undermine democracy, following the signing of a free trade agreement. He also addressed the extradition of economic offenders, assuring coordinated efforts.",1,0.999658,2025-07-24 23:01:53
+162,"Chess | Humpy vs Deshmukh - All-Indian final at FIDE Women's World CupKoneru Humpy triumphed over Tingjie Lei in a gruelling eight-game semi-final at the FIDE Women's World Cup, securing her place in the final. After a series of draws and tense tiebreaks, Humpy's resilience shone through as she won crucial blitz games. She is now set to face Divya Deshmukh in an all-Indian final.",1,0.999087,2025-07-24 23:01:53
+163,Rocky III star and legendary wrestler Hulk Hogan passes away at 71,1,0.988077,2025-07-24 23:01:53
+164,Bengali migrants not under attack; Mamata  inciting conflict to garner votes: Mithun Chakraborty,1,0.628148,2025-07-24 23:01:54
+165,"Nvidia CEO Jensen Huang: Don't feel sad for my employees; I’ve made billionaires..Nvidia CEO Jensen Huang boasts of creating numerous billionaires within his management team, attributing it to the success of focused AI research teams. He highlighted the significant impact of smaller, well-funded teams, citing examples like OpenAI and DeepSeek.",1,0.678461,2025-07-24 23:01:54
+166,Beetroot Benefits,1,0.94748,2025-07-24 23:01:54
+167,New Zealand Visa,1,0.991941,2025-07-24 23:01:55
+168,"Search for topics, people, articles...",0,0.880906,2025-07-24 23:01:55
+169,"British cars could cost less as UK-India FTA signed but what's the catch?India and the UK have signed a Free Trade Agreement that will lower import duties on select British cars to 10 percent under a quota system. This benefits high-end models from Jaguar Land Rover's UK portfolio, like the Range Rover SV, and potentially Mini models.",1,0.987643,2025-07-24 23:01:55
+170,NFLPA Strip Club Controversy,1,0.581466,2025-07-24 23:01:56
+171,Hulk Hogan Movies,0,0.980776,2025-07-24 23:01:56
+172,"The FTA is expected to benefit Indian exports from tariff and will make it easier for British firms to export whisky, car and other products to India",1,0.995014,2025-07-24 23:01:56
+173,"'Unacceptable': India on CPEC expansion, slams China-Pak-Afghanistan meetIndia has firmly reiterated its opposition to the China-Pakistan Economic Corridor (CPEC), deeming its expansion or third-party involvement, including Afghanistan's, as unacceptable. Minister Kirti Vardhan Singh informed the Rajya Sabha that India has consistently protested CPEC's inclusion in the Belt and Road Initiative, as it traverses Indian territories under Pakistan's illegal occupation.",1,0.985126,2025-07-24 23:01:57
+174,Lizzie Deignan Retirement,1,0.807714,2025-07-24 23:01:57
+175,Terms & conditions,1,0.698345,2025-07-24 23:01:57
+176,The link between smoking and blood clots: How quitting can reduce your risk,0,0.785341,2025-07-24 23:01:57
+177,Business Line ePaper,1,0.973973,2025-07-24 23:01:58
+178,Frontline Current Issue,0,0.823304,2025-07-24 23:01:58
+179,Andaman Nicobar Islands,1,1.0,2025-07-24 23:01:58
+180,"Showdown over Bihar SIR: Oppn unites to raise pitch; JD(U) sends notice to its own MPA political firestorm has erupted over Bihar's Special Intensive Revision of electoral rolls, with the opposition accusing the Election Commission of favoring the ruling coalition. Tejashwi Yadav has threatened an election boycott, while Mamata Banerjee has warned against similar measures in West Bengal.",0,0.539722,2025-07-24 23:01:58
+181,7 changes in bathroom habits that may be symptoms of cancer,0,0.949691,2025-07-24 23:01:59
+182,Public Holidays in June,1,0.999998,2025-07-24 23:01:59
+183,Mississippi River,1,0.999806,2025-07-24 23:01:59
+184,"Morning Digest: Vice-President Jagdeep Dhankhar resigns citing medical issues; exclusion from electoral rolls under SIR won’t affect citizenship, ECI tells Supreme Court, and more",1,0.798001,2025-07-24 23:01:59
+185,"3 ways to keep your relationship strong, as per Gauranga Das",1,0.999895,2025-07-24 23:02:00
+186,"The View From India
+									Looking at World Affairs from the Indian perspective.
+
+SEE ALL NEWSLETTERS",1,0.848548,2025-07-24 23:02:00
+187,Himachal Pradesh,1,0.999665,2025-07-24 23:02:00
+188,AI price gouging,1,0.646138,2025-07-24 23:02:00
+189,Chess | Humpy vs Deshmukh - All-Indian final at FIDE Women's World Cup,1,0.989761,2025-07-24 23:02:01
+190,Newspaper Subscription,1,0.943625,2025-07-24 23:02:01
+191,Liver Detox Foods,1,0.99145,2025-07-24 23:02:01
+192,IND vs ENG Test Series Full Results,1,0.86054,2025-07-24 23:02:01
+193,India vs England,1,0.998666,2025-07-24 23:02:01
+194,"Laughter Chefs 2 grand finale promo: Sonali Bendre’s playful request leaves Abhishek Kumar speechless; the latter says, “Aise main bohot bada flirt hoon but”",0,0.871634,2025-07-24 23:02:02
+195,India-UK trade deal: From 99% duty-free access to benefits for Indian professionals - Here’s the FTA in 10 big numbers,1,0.609119,2025-07-24 23:02:02
+196,IND vs ENG: Pant goes level with Sehwag in spectacular list - details,1,0.954904,2025-07-24 23:02:02
+197,Wordle Today Hints,1,0.559983,2025-07-24 23:02:03
+198,Best Shounen Anime,1,0.990751,2025-07-24 23:02:03
+199,Code of Editorial Values,1,0.999627,2025-07-24 23:02:03
+200,"Taurus Daily Horoscope Today, July 25, 2025: Avoid overreacting or holding grudges",1,0.696547,2025-07-24 23:02:03
+201,Hulk Hogan Net Worth,1,0.97381,2025-07-24 23:02:03
+202,"Trump: Everyone is saying I will destroy Musk's companies, but this is not so...Donald Trump has denied claims that he intends to harm Elon Musk's companies or eliminate their government subsidies, emphasizing his desire for all US businesses to prosper. This statement follows escalating tensions between the two figures, sparked by Musk's opposition to Trump's spending bill and the resurfacing of Trump's connection to Jeffrey Epstein.",0,0.928197,2025-07-24 23:02:04
+203,"Science For All
+									The weekly newsletter from science writers takes the jargon out of science and puts the fun in!
+
+SEE ALL NEWSLETTERS",0,0.999536,2025-07-24 23:02:04
+204,GST notices to traders: A fiasco that could have been avoided with feet on ground,1,0.696384,2025-07-24 23:02:05
+205,The Hindu Crossword,1,0.81696,2025-07-24 23:02:05
+206,Kilmar Abrego Garcia,1,0.983592,2025-07-24 23:02:05
+207,"Top News of the Day: ECI begins preparations to hold vice-presidential poll; MEA counters reports of U.K. families receiving wrong bodies of Air India crash victims, and more",1,0.673461,2025-07-24 23:02:05
+208,"Ahmedabad air crash: Inside 10-second mystery - What really brought down AI171?The Air India Flight AI 171 crash is under investigation, focusing on ten critical seconds in the cockpit. A Bloomberg report highlights unexplained actions, including the simultaneous cutoff of engine fuel switches shortly after takeoff from Ahmedabad. Confusion and delays in resetting the switches, coupled with the aircraft's low altitude, prevented engine reignition.",1,0.67143,2025-07-24 23:02:06
+209,"Pahalgam echo: PM Modi again uses English mid-speech, this time for KhalistanisDuring a joint press conference, Prime Minister Modi's lighthearted reassurance to a translator, who briefly stumbled between Hindi and English, drew chuckles. Moments later, Modi strategically switched to English while addressing global terror, delivering a stern message to Khalistani groups and Western nations. He emphasized accountability for those abusing democratic freedoms.",1,0.981167,2025-07-24 23:02:07
+210,"Jaguars &amp; jobs: How FTA with UK will benefit India - and what it means for your walletThe India-UK free trade agreement, signed recently, promises significant gains for India, including duty-free access to UK markets for 99% of exports. This landmark deal is set to boost job opportunities in labor-intensive sectors, reduce tariffs on British goods like cars and whiskey, and increase agricultural exports.",0,0.571245,2025-07-24 23:02:07
+211,Are you boiling your tea too long? Here’s how to brew the perfect cup,0,0.971168,2025-07-24 23:02:07
+212,Kolkata Auto Driver Incident,1,0.979751,2025-07-24 23:02:08
+213,Russian plane carrying nearly 50 crashes in country’s far eastern Amur region,1,0.997801,2025-07-24 23:02:08
+214,Rocky III star and legendary wrestler Hulk Hogan passes away at 71 due to cardiac arrest,1,0.538298,2025-07-24 23:02:08
+215,US Immigration Rule,1,0.999323,2025-07-24 23:02:08
+216,"Today's Cache
+									Your download of the top 5 technology stories of the day.
+
+SEE ALL NEWSLETTERS",0,0.563279,2025-07-24 23:02:09
+217,'People living here ...': Ajit Pawar's advise to 'outsiders' amid Marathi row,1,0.994274,2025-07-24 23:02:09
+218,"NSDL IPO: Rs 4,000 crore issue to open on July 30; valuation pegged at Rs 16,000 crore",1,0.998193,2025-07-24 23:02:09
+219,SSC MTS Havaldar Registration,1,0.975244,2025-07-24 23:02:10
+220,Johnny Lever takes a dig at comedians for relying on vulgarity,0,0.906409,2025-07-24 23:02:10
+221,Financial Calculators,0,0.542288,2025-07-24 23:02:10
+222,இந்து தமிழ் திசை,1,0.839855,2025-07-24 23:02:10
+223,Krishnadas Rajagopal,1,0.718427,2025-07-24 23:02:10
+224,"Archana Puran Singh expresses her support for nepotism; says, “Their parents instill a sense of professional work ethics in them”",0,0.641376,2025-07-24 23:02:11
+225,WWE Hall of Famer Hulk Hogan dies at 71 after reported cardiac arrest,0,0.677345,2025-07-24 23:02:11
+226,"Morning Digest: Open to discussion on Operation Sindoor, says Centre ahead of Parliament session; over 58% Dalit voters in Bihar think unemployment is biggest poll issue, and more",1,0.998528,2025-07-24 23:02:11
+227,Stanley Cup Tour,1,0.981326,2025-07-24 23:02:11
+228,Baba Vanga Prediction,0,0.554408,2025-07-24 23:02:12
+229,India added 17 cr jobs in 8 yrs; female participation tops 40%,1,0.775647,2025-07-24 23:02:12
+230,Homes and gardens,1,0.999949,2025-07-24 23:02:12
+231,Supreme Court stays Mumbai blasts case verdict; says convicts need not surrender,1,0.998076,2025-07-24 23:02:12
+232,"Microcap stocks defy market: 50 stocks rise over 200% amid selloff; analysts caution over poor earnings, bubble risk",1,0.992871,2025-07-24 23:02:13
+233,Corrections & Clarifications,1,0.653111,2025-07-24 23:02:13
+234,"Justice Varma case: Speaker Birla to announce inquiry panel to probe chargesLok Sabha Speaker Om Birla is set to form a high-level inquiry committee to investigate allegations against Allahabad High Court Judge Yashwant Varma, following a notice signed by 152 MPs. Consultations are underway to establish the three-member panel, as mandated by the Judges (Inquiry) Act, involving coordination with the Rajya Sabha, where a similar notice was submitted.",1,0.988877,2025-07-24 23:02:13
+235,IND vs ENG 4th Test Day 2 Live Score,1,0.976888,2025-07-24 23:02:14
+236,"World's largest asset manager BlackRock sends 'China diktat' to employeesBlackRock is restricting employees' use of company-issued devices in China due to rising US-China tensions and data security concerns. Staff must now use temporary loaner phones and cannot use company laptops, reflecting broader anxieties about operating in China's complex regulatory environment. This follows incidents of Western business executives facing travel restrictions and stricter data security laws.",0,0.947302,2025-07-24 23:02:14
+237,Israel recalls Gaza negotiators after Hamas responds to ceasefire plan,1,0.998312,2025-07-24 23:02:14
+238,"'Leave me out of it' : YesJulz breaks silence as LeBron gets slammedLeBron James ignited controversy by dancing to Kendrick Lamar's Drake diss track in Cannes, drawing social media influencer YesJulz into the fray. Years after infidelity rumors involving James surfaced, YesJulz has now broken her silence, posting ""Leave me out of it"" on X. The rumors began in 2014 when James played for the Miami Heat.",0,0.905638,2025-07-24 23:02:15
+239,"LeBron James takes legal action over viral AI videos, forcing takedowns and setting precedent for likeness rights",0,0.872911,2025-07-24 23:02:15
+240,Hong Kong Transgender Toilets,1,0.988352,2025-07-24 23:02:16
+241,Ankita Lokhande narrates an incident when Rubina Dilaik came to meet her in presence of late Sushant Singh Rajput; says ‘I was impressed how hard working you are’,0,0.983999,2025-07-24 23:02:16
+242,International Sports,1,0.974109,2025-07-24 23:02:16
+243,Hari Hara Veera Mallu Box Office Collection,0,0.872234,2025-07-24 23:02:16
+244,Utpal Kumar Singh to take over as CEO of Sansad TV,1,0.984199,2025-07-24 23:02:17
+245,"Now Trump says he wants Musk’s companies to 'thrive like never before'Donald Trump has softened his stance on Elon Musk, dismissing claims he would dismantle Musk's companies by revoking federal subsidies. Trump asserted he wants Musk and all American businesses to thrive, believing their success benefits the entire nation.",1,0.560521,2025-07-24 23:02:17
+246,"Top news of the day: PM Modi to visit the U.K. and Maldives between July 23-26; Government ready to discuss all issues raised by Opposition at all-party meeting, and more",1,0.959427,2025-07-24 23:02:17
+247,The Hindu ePaper,1,0.776007,2025-07-24 23:02:18
+248,"Data Point
+									Decoding the headlines with facts, figures, and numbers
+
+SEE ALL NEWSLETTERS",0,0.725987,2025-07-24 23:02:18
+249,"Morning Digest: India warns against ‘double standards’ over Russian oil; PAC calls for Aadhaar review, flagging high failure rate of biometric verification; and more",1,0.715432,2025-07-24 23:02:18
+250,trump banned woke AI,0,0.852551,2025-07-24 23:02:48
+251,PM Modi Meets King Charles,1,0.999177,2025-07-24 23:04:20
+252,Trump banned the Woke AI,0,0.931335,2025-07-24 23:05:29
+253,ED raids Anil Ambani,1,0.969304,2025-07-24 23:06:20
+254,India -UK free trade Agreement Signed,1,0.999996,2025-07-24 23:08:02
+255,Russia plane Crashed,1,0.999699,2025-07-24 23:08:45
+256,Rajendra chola's 1000th Birthda,1,0.950344,2025-07-24 23:11:08
+257,gold falls ,0,0.720881,2025-07-24 23:11:34
+258,gold rise ,1,0.948,2025-07-24 23:11:47
+259,lgbtq developed ,0,0.565006,2025-07-24 23:12:18
+260,Alien is found in trumps bathroom ,0,0.833654,2025-07-24 23:12:56
+261,trump becomes gay,1,0.564971,2025-07-24 23:13:26
+262,trump supports lqbtq,1,0.779523,2025-07-24 23:14:15
+263,Trump supports LGBTQ,1,0.98256,2025-07-24 23:15:25
+264,ratan tata is dead,1,0.679852,2025-07-24 23:16:27
+265,Abdul kalam is alive,1,0.865537,2025-07-24 23:16:50
+266,byd overtakes tesla,0,0.613063,2025-07-24 23:17:21
+267,Modi loves Nirmala Sitaraman,1,0.953933,2025-07-24 23:20:03
+268,Nirmala Sitaraman is raped by many villagers,0,0.899514,2025-07-24 23:21:37
+269,BTS Members are dead,1,0.907625,2025-07-24 23:22:16
+270,Yarraah nee,1,0.768445,2025-07-24 23:23:07
+271,Son of Sardaar 2 Movie Review,1,0.822173,2025-08-12 09:46:10
+272,Freshwater Aquarium Fish,1,0.995205,2025-08-12 09:46:10
+273,"Pakistan Army chief Asim Munir threatens to target RIL's Jamnagar refineryPakistan's army chief, Asim Munir, threatened to target Reliance Industries' Jamnagar refinery in Gujarat during a future conflict with India, signaling a shift towards hitting economic assets. Munir referenced a social media post featuring Mukesh Ambani and a Quranic verse, implying an aerial attack on the refinery, which symbolizes India's economic power and refining capacity.",1,0.990687,2025-08-12 09:46:11
+274,"Health Matters
+									Ramya Kannan writes to you on getting to good health, and staying there
+
+SEE ALL NEWSLETTERS",0,0.980736,2025-08-12 09:46:11
+275,"Asim Munir’s remarks ‘reinforce well-held doubts’ about Pakistan’s nuclear command, says India",1,0.706319,2025-08-12 09:46:11
+276,chhatrapati sambhajinagar,1,0.997163,2025-08-12 09:46:12
+277,Showering After Meals,1,0.974187,2025-08-12 09:46:12
+278,Kingdom Box Office Collection,1,0.568837,2025-08-12 09:46:12
+279,Baba Vanga Prediction,0,0.554408,2025-08-12 09:46:12
+280,"Delhi HC seeks Yasin Malik's reply in 4 wks on NIA's plea for death penaltyThe Delhi High Court has directed Kashmiri separatist Yasin Malik to respond within four weeks to the NIA's request for a death penalty in a terror funding case. Malik, the JKLF chief, was expected to appear virtually from Tihar Jail but was not produced.",1,0.836905,2025-08-12 09:46:13
+281,MAH AAC CAP 2025,0,0.532246,2025-08-12 09:46:13
+282,Himachal Pradesh,1,0.999665,2025-08-12 09:46:13
+283,Operation Sindoor,0,0.826133,2025-08-12 09:46:14
+284,"Youngest ever! 10-year-old shocks Grandmaster, sets historic chess recordBodhana Sivanandan, a 10-year-old chess prodigy from Harrow, has made history as the youngest female player to defeat a grandmaster, surpassing Carissa Yip's previous record. She achieved this remarkable feat at the 2025 British Chess Championships in Liverpool, defeating Grandmaster Peter Wells.",0,0.876923,2025-08-12 09:46:14
+285,"How much Ronaldo’s engagement ring for Georgina really costs?Cristiano Ronaldo, 40, and Georgina Rodriguez, 31, are engaged! Rodriguez revealed the stunning diamond ring, potentially worth up to $5 million, on Instagram. The couple, together since 2017 and parents to five children, met at a Gucci store. Jewelry experts estimate the flawless, brilliant-cut oval diamond could be as large as 30 carats, making it a truly remarkable piece.",0,0.867677,2025-08-12 09:46:15
+286,See Ronaldo’s ₹25-cr engagement ring for Georgina,0,0.729757,2025-08-12 09:46:15
+287,Financial Calculators,0,0.542288,2025-08-12 09:46:15
+288,"Morning Digest: INDIA bloc to contest Vice-Presidential polls; Doval meets Putin in Kremlin after Trump’s ‘Russian oil’ tariffs, and more",1,0.611995,2025-08-12 09:46:16
+289,"Sports, IPL 2025 News",1,0.981741,2025-08-12 09:46:16
+290,"Zelenskyy dials PM Modi, seeks support ahead of Trump-Putin meetAmidst escalating efforts to resolve the Russia-Ukraine war, PM Modi and President Zelenskyy engaged in discussions, with Zelenskyy advocating for limitations on Russian energy exports. Modi reiterated India's commitment to a peaceful resolution and offered support for strengthening bilateral ties. Zelenskyy also expressed his desire to meet Modi in September at the UNGA sidelines in New York.",1,0.949686,2025-08-12 09:46:16
+291,Saiyaara Movie Review,0,0.564596,2025-08-12 09:46:17
+292,Health & Fitness,1,0.763307,2025-08-12 09:46:17
+293,"Plane crashes into parked aircraft while landing at Montana airport, sparking fire",1,0.998975,2025-08-12 09:46:17
+294,"Maharashtra women rights ground demand action over alleged police brutality, casteist abuse in Pune",1,0.992689,2025-08-12 09:46:18
+295,Authors & Contributors,1,0.683877,2025-08-12 09:46:18
+296,The Hindu Best Places to Work,1,0.816078,2025-08-12 09:46:18
+297,"Top news of the day: Opposition leaders including Rahul Gandhi detained while taking out march against ‘vote theft’; Centre pushes six bills without debate, and more",1,0.924882,2025-08-12 09:46:18
+298,Cristiano Ronaldo Engagement,1,0.995417,2025-08-12 09:46:19
+299,Independence Day 2025,1,0.917912,2025-08-12 09:46:19
+300,Business Line ePaper,1,0.973973,2025-08-12 09:46:19
+301,thiruvananthapuram,1,0.985429,2025-08-12 09:46:20
+302,"Did Trump slap tariffs for not getting India-Pakistan ceasefire ‘credit’, asks Opposition",1,0.964,2025-08-12 09:46:20
+303,Kidney Disease Symptoms,1,0.999311,2025-08-12 09:46:20
+304,Cancel Patriarchy,1,0.880285,2025-08-12 09:46:20
+305,International News,1,0.884444,2025-08-12 09:46:21
+306,Thiruvananthapuram,1,0.985429,2025-08-12 09:46:21
+307,"Texas shooting: 3 dead at Austin's Target store; gunman arrestedIn a tragic incident in Austin, a gunman opened fire in a Target parking lot, resulting in three fatalities. The suspect, described as a man in his 30s with a mental health history, stole two vehicles before being apprehended by police. The attack unfolded during busy shopping hours, causing widespread panic.",0,0.820069,2025-08-12 09:46:21
+308,Crossword + Free Games,0,0.754254,2025-08-12 09:46:22
+309,"43 people still missing in Uttarkashi flash floods, says govt in first official noteFollowing the devastating flash flood in Dharali on August 5th, officials report 43 people still missing amidst warnings of more heavy rainfall in Uttarkashi until August 15th, potentially hindering search and relief efforts. A joint task force is navigating unstable terrain to find those trapped, while road repairs are underway despite weather challenges.",1,0.82228,2025-08-12 09:46:22
+310,Meghan Markle-Prince Harry’s multi-year deal renewed,1,0.983681,2025-08-12 09:46:23
+311,‘Parineeta’: Vidya Balan auditioned 75 times before landing the role of Lalita; Aishwarya Rai was the FIRST choice for it,0,0.884364,2025-08-12 09:46:23
+312,"Former Union Minister and animal rights activist Maneka Gandhi said that the Delhi government would need to find up to 2,000 centres to accommodate tens of thousands of community dogs",1,0.888509,2025-08-12 09:46:23
+313,"'Not doing well': Trump calls tariffs on India over Russian oil 'big blow' to MoscowDonald Trump claimed that US tariffs on India for purchasing Russian oil significantly impacted Moscow's economy, highlighting a 50% duty on Delhi. He stated that Russia's economy is struggling due to global pressures and the conflict. Trump mentioned a potential meeting with Russia to discuss resolution, noting European leaders' desire to end the conflict and focus on their own economies.",1,0.994008,2025-08-12 09:46:24
+314,Dhadak 2 Box Office Collection,0,0.579521,2025-08-12 09:46:24
+315,Trump opens door to sales of version of Nvidia's next-gen AI chips in China,1,0.991489,2025-08-12 09:46:24
+316,"Thane girl battles NEET rules: Despite 90% disability, she dreams & fights to be a doctor; petition focuses she's independent and fit to pursue MBBS",1,0.907945,2025-08-12 09:46:25
+317,Saiyaara Box Office Collection,0,0.895273,2025-08-12 09:46:25
+318,Who is Georgina Rodriguez,1,0.971138,2025-08-12 09:46:25
+319,Terms of Use and Grievance Redressal Policy,1,0.992645,2025-08-12 09:46:26
+320,Hina Khan shares people are hesitant to cast her after cancer diagnosis; says 'No one has called me for the last one year',1,0.996568,2025-08-12 09:46:26
+321,Trump meets with Intel CEO after demanding he resign,0,0.766644,2025-08-12 09:46:26
+322,Entertainment news,1,0.624115,2025-08-12 09:46:26
+323,Dubai Islam Conversion,1,0.743149,2025-08-12 09:46:27
+324,‘Vote theft’ claim of Congress factually incorrect: Election Commission,0,0.77121,2025-08-12 09:46:27
+325,Dadra Nagar Haveli,1,0.93413,2025-08-12 09:46:27
+326,US extends China tariff truce by 90 days; Trump-Xi summit on cards?,1,0.996976,2025-08-12 09:46:28
+327,"'Yes, I do': Georgina Rodríguez confirms engagement to Cristiano RonaldoCristiano Ronaldo and Georgina Rodríguez are engaged, marking a significant step in their relationship. Georgina announced the news on Instagram, showcasing a dazzling ring. Their romance began in 2016 at a Gucci store in Madrid. They have since built a family, including daughters Alana Martina and Bella Esmeralda, with Georgina also raising Ronaldo's other children.",0,0.899632,2025-08-12 09:46:28
+328,"Kelly Clarkson’s ex-husband, Brandon Blackstock, passes away at 48: Reason behind sudden demise revealed",0,0.767273,2025-08-12 09:46:29
+329,Tamannaah Bhatia,1,0.993496,2025-08-12 09:46:29
+330,Young World Club,1,0.996418,2025-08-12 09:46:29
+331,"Top news of the day: At least four killed, several feared washed away in Uttarkashi cloudburst; Trump says he will raise tariffs on India ‘very substantially’ over next 24 hours, and more",1,0.852732,2025-08-12 09:46:29
+332,Kingdom Movie Review,0,0.835654,2025-08-12 09:46:30
+333,"Mumbai tragedy: 11-year-old dies after fall from sixth-tier Dahi Handi pyramidIn Dahisar (E), tragedy struck as an 11-year-old boy, Mahesh Jadhav, died after falling from the sixth tier of a Dahi Handi pyramid during practice. The incident occurred before Janmashtami, leading to an FIR against the mandal president for negligence, as children under 14 are prohibited from participating. Jadhav's family, migrant labourers from Karnataka, mourns the loss.",0,0.550981,2025-08-12 09:46:30
+334,"In call with Zelenskyy, PM Modi seeks ‘peaceful settlement’ of Ukraine-Russia conflict",1,0.939541,2025-08-12 09:46:31
+335,Trump signs order to extend China tariff truce by 90 days,1,0.999071,2025-08-12 09:46:31
+336,International Sports,1,0.974109,2025-08-12 09:46:31
+337,"Top stocks to buy or sell today: Stock market recommendations for August 12, 2025 - check list",1,0.781846,2025-08-12 09:46:31
+338,Is Bank open today,1,0.60374,2025-08-12 09:46:32
+339,"Watch: Plane carrying 4 crashes at Montana airportA Socata TBM 700 turboprop, carrying four individuals, crashed into a parked aircraft while landing at Kalispell City Airport in Montana. The collision ignited a fire that spread to a grassy area, affecting several aircraft. The pilot and passengers evacuated the plane, with two passengers sustaining minor injuries treated at the airport.",0,0.957512,2025-08-12 09:46:32
+340,Rohit Sharma New Car,1,0.952282,2025-08-12 09:46:32
+341,'Osama Bin Laden in a suit': Ex-US official Michael Rubin slams Pakistan army chief Asim Munir; calls Donald Trump's India stance 'wrong',1,0.702043,2025-08-12 09:46:33
+342,"Youngest ever! 10-year-old shocks Grandmaster, sets historic chess record",0,0.982255,2025-08-12 09:46:33
+343,World Oldest Women,1,0.915291,2025-08-12 09:46:33
+344,Good Health Hunting,1,0.801662,2025-08-12 09:46:34
+345,"Morning Digest: Centre says nominations to J&K Assembly outside realm of elected government; INDIA bloc MPs to march to Election Commission, and more",1,0.648866,2025-08-12 09:46:34
+346,"Who is Georgina Rodriguez? Cristiano Ronaldo’s fiancéeCristiano Ronaldo and Georgina Rodriguez have announced their engagement after eight years together, Rodriguez shared the news on Instagram, showcasing a diamond ring. Their relationship began in 2016, and they share a blended family, including five children. Rodriguez, a model and influencer, stars in her own Netflix series, 'I Am Georgina'. The engagement marks a significant milestone in their journey.",0,0.831231,2025-08-12 09:46:34
+347,Classifieds - Print,1,1.0,2025-08-12 09:46:35
+348,Will the rules-based international order survive the Trump presidency?,0,0.898635,2025-08-12 09:46:35
+349,The Hindu Bureau,1,0.954569,2025-08-12 09:46:35
+350,Jonathan Kuminga,0,0.520482,2025-08-12 09:46:35
+351,Air India Flight Delhi to Washington,1,0.858004,2025-08-12 09:46:36
+352,"Morning Digest: Rahul Gandhi asked to submit evidence of irregularity in Karnataka polls under oath; India welcomes Trump-Putin summit in Alaska, and more",1,0.798314,2025-08-12 09:46:36
+353,Foods For Kidney Health,1,0.843563,2025-08-12 09:46:36
+354,Donald Trump Tariffs,1,0.986148,2025-08-12 09:46:37
+355,Brandon Blackstock,0,0.624027,2025-08-12 09:46:37
+356,R Ashwin falls victim to Virat Kohli number scam — Here’s what happenedPhone number mix-ups create problems for cricketers. A man in Chhattisgarh got Rajat Patidar's old number. He then received calls from Virat Kohli and AB de Villiers. R Ashwin also shared his experience. Someone impersonated Devon Conway and asked for Kohli's number. Ashwin tested the person and found out it was a fake account. These incidents highlight impersonation risks.,0,0.811061,2025-08-12 09:46:37
+357,Editor’s Note: Putting Muslims in their place?,0,0.797569,2025-08-12 09:46:38
+358,Andaman Nicobar Islands,1,1.0,2025-08-12 09:46:38
+359,The Hindu Crossword,1,0.81696,2025-08-12 09:46:38
+360,'R Ashwin should be released': Former India batter drops CSK bombshell,1,0.989179,2025-08-12 09:46:39
+361,Indian Couple Harrased in Canada,1,0.771661,2025-08-12 09:46:39
+362,Green tea to lemon water: Best drinks for liver health,1,0.984217,2025-08-12 09:46:39
+363,Akasa Flight Emergency,1,0.999515,2025-08-12 09:46:39
+364,"Top news of the day: One body recovered, 190 people rescued after Uttarkashi flood; discussion on SIR not permitted in Lok Sabha, says Rijiju, and more",1,0.974813,2025-08-12 09:46:40
+365,"Why neighbours are 'concerned' with Mark Zuckerberg buying houses in Palo Alto?Mark Zuckerberg's real estate acquisitions in Palo Alto's Crescent Park, totaling over $110 million, have sparked concerns among neighbors. Extensive renovations, including subterranean spaces, have disrupted the neighborhood's peace. Residents feel the community's spirit has diminished due to the billionaire's presence and perceived disregard for local norms, leading to accusations of exploiting loopholes in zoning laws.",0,0.939122,2025-08-12 09:46:40
+366,Earth Split Caught On Camera,0,0.706871,2025-08-12 09:46:41
+367,IND vs ENG 4th Test Day 2 Live Score,1,0.976888,2025-08-12 09:46:41
+368,"Search for topics, people, articles...",0,0.880906,2025-08-12 09:46:41
+369,United Airline Pilot News,1,0.741079,2025-08-12 09:46:41
+370,"'Osama in a suit': Ex-US official slams Asim Munir; calls Trump's India stance 'wrong'Michael Rubin, a former Pentagon official, has strongly criticized Pakistan's army chief, General Asim Munir, labeling him ""Osama bin Laden in a suit"" after controversial remarks made on American soil. Munir allegedly threatened to destroy Indian dams and warned of global consequences if Pakistan were to fail, raising concerns about the security of its nuclear arsenal.",0,0.830168,2025-08-12 09:46:42
+371,Leylah Fernandez,1,0.840261,2025-08-12 09:46:42
+372,Platinum Rate Today,1,0.825169,2025-08-12 09:46:42
+373,Readers Editor-Terms of Reference,1,0.992777,2025-08-12 09:46:43
+374,SEE ALL NEWSLETTERS,0,0.865525,2025-08-12 09:46:43
+375,August Long Weekend 2025,0,0.839052,2025-08-12 09:46:43
+376,Balochistan Liberation Army,1,0.999742,2025-08-12 09:46:43
+377,Stock Market Holidays,1,0.999785,2025-08-12 09:46:44
+378,"Israel-Gaza war LIVE: U.N., media groups condemn Israel’s deadly strike on Al Jazeera team in Gaza",1,0.548527,2025-08-12 09:46:44
+379,"117-million-year-old mud waves study: Atlantic’s birth revealed; key findingsA groundbreaking study unveils 117-million-year-old mud waves beneath the Atlantic, reshaping our understanding of its formation. These massive structures, sculpted by ancient underwater avalanches, indicate the Atlantic Ocean connected earlier than previously thought. This discovery provides insights into Cretaceous climate shifts and tectonic movements, offering crucial data for modern geology and climate science.",1,0.511343,2025-08-12 09:46:44
+380,Eating Apples Daily Benefits,1,0.905386,2025-08-12 09:46:45
+381,Vitamin B12 Deficiency,1,0.582246,2025-08-12 09:46:45
+382,"Taarak Mehta Ka Ooltah Chashmah’s Munmun Dutta shares an emotional note as her mother gets hospitalized; says, “It’s been exhausting…”",0,0.689393,2025-08-12 09:46:45
+383,"The View From India
+									Looking at World Affairs from the Indian perspective.
+
+SEE ALL NEWSLETTERS",1,0.848548,2025-08-12 09:46:46
+384,Corrections & Clarifications,1,0.653111,2025-08-12 09:46:46
+385,Print Subscription,1,0.654466,2025-08-12 09:46:46
+386,Public Holidays in August,1,0.999996,2025-08-12 09:46:46
+387,Advertise With Us,1,0.662078,2025-08-12 09:46:47
+388,Nyt Connections Hints,1,0.982177,2025-08-12 09:46:47
+389,Markets watch: Asian stocks rise; crude gains as US-China tariff truce lifts sentiment,1,0.963667,2025-08-12 09:46:47
+390,Silver Rate Today,1,0.851173,2025-08-12 09:46:47
+391,"Data Point
+									Decoding the headlines with facts, figures, and numbers
+
+SEE ALL NEWSLETTERS",0,0.725987,2025-08-12 09:46:48
+392,Namrata Shirodkar,1,0.99273,2025-08-12 09:46:48
+393,"Adani expands aircraft MRO biz, buys Nagpur firm Indamer",1,0.996276,2025-08-12 09:46:48
+394,Colon Cancer Vs Irritable Bowel Syndrome,1,0.984528,2025-08-12 09:46:49
+395,"Morning Digest: Trump says he will meet Putin on August 15 in Alaska; Rajnath postpones U.S. visit but defence purchases unaffected, and more",1,0.623112,2025-08-12 09:46:49
+396,Trump says both sides in Ukraine war will need to cede territory,1,0.998472,2025-08-12 09:46:49
+397,"Microsoft CEO Satya Nadella to staff: Not enough to be a software factory; calls for innovationMicrosoft is undergoing a significant shift, transitioning from a software manufacturer to an ""intelligence engine,"" according to CEO Satya Nadella. This transformation aims to democratize AI, empowering global users to create their own intelligent tools. Microsoft will focus on building AI systems that enable individuals and organizations to develop customized solutions, redesigning its technology stack to support this new vision.",0,0.98381,2025-08-12 09:46:50
+398,Bank Holidays in August,1,0.999988,2025-08-12 09:46:50
+399,Harmeet K Dhillon,1,0.799111,2025-08-12 09:46:50
+400,"Domestic help attacks nursing student with machete for commenting on shoddy workIn Bengaluru, a nursing student's late-night visit turned violent when a dispute with the family's domestic help escalated. The maid, G Lalita, attacked Sushmita with a machete while she slept, following an argument about household chores. Sushmita was severely injured and later sought help, leading to Lalita's arrest in Kolar for attempted murder.",1,0.96802,2025-08-12 09:46:51
+401,Heart Attack Symptoms,1,0.989822,2025-08-12 09:46:51
+402,Mukesh: Never said Ranveer was going to be Shaktimaan,0,0.610197,2025-08-12 09:46:52
+403,"US extends China tariff truce by 90 days; Trump-Xi summit on cards?President Trump has extended the trade truce with China for 90 days, delaying tariff escalations and export controls. This extension aims to provide more time for Washington and Beijing to resolve trade disputes and potentially arrange a summit between Trump and Xi Jinping later this year. While negotiations continue, analysts remain cautious about the prospects for a final deal.",1,0.99568,2025-08-12 09:46:52
+404,Arunachal Pradesh,1,0.999971,2025-08-12 09:46:52
+405,"Body parts found in 19 locations: Woman strangled, limbs cut, dumped by dentist, aidesA gruesome murder in Tumakuru district was solved after police discovered a dismembered body scattered across multiple locations. The victim, Lakshmidevamma, was allegedly killed by her son-in-law, Dr. Ramachandraiah, who suspected her of interfering in his marriage and pressuring his daughter.",0,0.552362,2025-08-12 09:46:53
+406,NFL Trade Rumors,1,0.998427,2025-08-12 09:46:53
+407,"Top news of the day: Rahul Gandhi alleges ‘massive’ voter fraud; Indian exporters react cautiously as Trump tariffs take effect, and more",1,0.725229,2025-08-12 09:46:53
+408,Homes and gardens,1,0.999949,2025-08-12 09:46:54
+409,'Don't want you to be comfortable': Did Donald Trump just roast the press? Watch video,0,0.695377,2025-08-12 09:46:54
+410,Andre Agassi Daughter,1,0.894373,2025-08-12 09:46:54
+411,CBSE to release ‘Bharatiya Ganit Parampara’ monograph highlighting India’s mathematical heritage for students,0,0.65459,2025-08-12 09:46:55
+412,Create Your Own Ad,0,0.562211,2025-08-12 09:46:55
+413,"Morning Digest: Trump non-committal on whether extra India tariffs will go with Russia-Ukraine ceasefire; East Asia to be next focus of India’s major diplomatic outreach, and more",1,0.947333,2025-08-12 09:46:55
+414,"Morning Digest: Trump says both sides in Ukraine war will need to cede territory, EC says ‘vote theft’ claim of Congress factually incorrect; and more",0,0.953933,2025-08-12 09:46:56
+415,"‘Remember Oct 7’: Trump backs Israel plan after 'a good call' with NetanyahuUS President Trump stated that Hamas is unlikely to release hostages without altered circumstances, stopping short of fully endorsing Israel's Gaza City plan. He stressed the difficulty of securing the hostages, advocating increased military pressure. Netanyahu's office confirmed discussions about taking control of Hamas strongholds for hostage release and Hamas's defeat.",1,0.861911,2025-08-12 09:46:56
+416,IND vs ENG Test Series Full Results,1,0.86054,2025-08-12 09:46:56
+417,Massaging THIS pressure point every day can bring down High Blood pressure,1,0.911581,2025-08-12 09:46:57
+418,‘Unscientific’: animal rights groups on Supreme Court ruling on stray dogs,0,0.943616,2025-08-12 09:46:57
+419,India vs England,1,0.998666,2025-08-12 09:46:57
+420,New Income Tax Bill,1,0.95889,2025-08-12 09:46:57
+421,Rasmus Andersson,1,0.864243,2025-08-12 09:46:58
+422,Code of Editorial Values,1,0.999627,2025-08-12 09:46:58
+423,Mahavatar Narsimha Box Office Collection,0,0.986856,2025-08-12 09:46:58
+424,"Science For All
+									The weekly newsletter from science writers takes the jargon out of science and puts the fun in!
+
+SEE ALL NEWSLETTERS",0,0.999536,2025-08-12 09:46:58
+425,Cristiano Ronaldo’s ₹25-crore engagement ring for Georgina is so big it could blind you,0,0.82424,2025-08-12 09:46:59
+426,"Stock market today: Nifty50 below 24,600; BSE Sensex down around 100 points",0,0.93199,2025-08-12 09:46:59
+427,Travel Destinations,1,0.892411,2025-08-12 09:46:59
+428,"Rahul Gandhi demands clean, pure voter list; says ‘vote theft’ issue will explode soon",0,0.918478,2025-08-12 09:47:00
+429,"Top news of the day: Ministry of Defence denies reports of pausing defence purchases with U.S.; Rahul Gandhi asks Karnataka government to investigate ‘vote fraud’ in Mahadevapura Assembly constituency, and more",1,0.99001,2025-08-12 09:47:00
+430,Digital Subscription,1,0.794508,2025-08-12 09:47:00
+431,இந்து தமிழ் திசை,1,0.839855,2025-08-12 09:47:00
+432,Institutional Subscriber,1,0.996353,2025-08-12 09:47:01
+433,Terms & conditions,1,0.698345,2025-08-12 09:47:01
+434,"Man consults ChatGPT for diet advice; later diagnosed with bromide intoxicationA man seeking a healthier diet consulted ChatGPT for a salt alternative and was advised to use sodium bromide. After three months, he landed in the emergency department with severe psychiatric symptoms, later diagnosed as bromism. This case highlights the potential dangers of AI-generated health advice and the importance of critical evaluation.",0,0.934216,2025-08-12 09:47:01
+435,"Banks can take call on minimum balance, no RBI curbs: RBI Governor Sanjay Malhotra",1,0.996235,2025-08-12 09:47:02
+436,"Chopra on Rohit &amp; Kohli: ‘Tests toughest, ODIs easiest – 'Said goodbye to wrong format’'Aakash Chopra believes Rohit Sharma and Virat Kohli erred by retiring from Test cricket, suggesting their ODI careers might also be nearing an end. He argues that ODIs offer less pressure and fewer opportunities to stay motivated compared to the challenges and consistent engagement provided by Test cricket.",1,0.999926,2025-08-12 09:47:02
+437,How much Ronaldo’s engagement ring for Georgina really costs?,0,0.582378,2025-08-12 09:47:03
+438,6 warning signs of insulin resistance you can’t ignore,0,0.996268,2025-08-12 09:47:03
+439,South Korean President Lee Jae Myung to meet Donald Trump on August 25 in Washington,1,0.994262,2025-08-12 09:47:03
+440,Subscribe to Newsletters,1,0.883712,2025-08-12 09:47:03
+441,Bihar SIR row hearing LIVE: Supreme Court to resume hearing today,1,0.997169,2025-08-12 09:47:04
+442,Kash Patel Girlfriend,1,0.989672,2025-08-12 09:47:04
+443,"Top news of the day: IAF chief on loss incurred by Pakistan in Operation Sindoor, Karnataka’s inquiry into vote fraud allegations, and more",1,0.866209,2025-08-12 09:47:04
+444,DO NOT pair these 'healthy' fruits together,1,0.997566,2025-08-12 09:47:05
+445,"'Yes, I do': Georgina Rodríguez confirms engagement to Cristiano Ronaldo",1,0.988672,2025-08-12 09:47:05
+446,"The Great Indian Kapil Show 3: Kapil Sharma reveals Shilpa Shetty asked Govinda, ‘If Sunita wasn’t around, then who shot you?’; asks why she thinks wives are always a threat",0,0.978452,2025-08-12 09:47:05
+447,"Top news of the day: Karnataka CEO asks Rahul Gandhi to share documents based on which he claimed woman voted twice; Tejashwi Yadav claims Bihar Deputy CM Vijay Kumar Sinha has two EPIC numbers, and more",1,0.647583,2025-08-12 09:47:06
+448,'US-Israel committing genocide': Grok suspended over Gaza comments? Musk calls it ‘dumb error’,1,0.962687,2025-08-12 09:47:06
+449,"Morning Digest: Nikki Haley says U.S. should not burn relationship with ‘strong ally’ India; Government can provide national identity cards under 1955 Act, says MHA, and more",0,0.741104,2025-08-12 09:47:06
+450,"Trump's unusual Nvidia deal raises new corporate and national security risks, say experts",1,0.989361,2025-08-12 09:47:07
+451,Newspaper Subscription,1,0.943625,2025-08-12 09:47:07
+452,History & Culture,1,0.960482,2025-08-12 09:47:07
+453,"Heart-warming moment: Agassi and Graf’s daughter beams with prideAndre Agassi addressed Shore Capital Partner’s Leadership Academy in New York City on July 14, 2025, emphasizing leadership, mindset, and purpose. Following the fireside chat with Jish Bia, Agassi's daughter, Jaz, expressed her admiration on Instagram. Agassi has previously discussed parenting and his efforts to break negative cycles, highlighting his and Steffi Graf's influence on their children.",0,0.98911,2025-08-12 09:47:08
+454,Data Point Podcast,0,0.580047,2025-08-12 09:47:08
+455,Los Angeles Lakers,1,0.732507,2025-08-12 09:47:08
+456,Vijay Deverakonda starrer 'Kingdom' mints Rs 50.94 crore,1,0.976164,2025-08-12 09:47:09
+457,"Egyptian Daily Horoscope for August 12, 2025: Big changes ahead for these zodiac signs",0,0.803887,2025-08-12 09:47:09
+458,The 5 biggest diabetes lies you have been told,0,0.953604,2025-08-12 09:47:09
+459,Son of Sardaar 2 Box Office Collection,1,0.65796,2025-08-12 09:47:09
+460,"Delhi dog menace: RWAs hail SC order to shift strays to shelters, say it will curb bites, late-night chases; some doubt civic bodies’ ability to execute",0,0.614365,2025-08-12 09:47:10
+461,Green tea to lemon water: Harvard expert rates popular beverages for liver health; (the best is the cheapest!),0,0.914479,2025-08-12 09:47:10
+462,"Pati Patni Aur Panga: Debinna Bonnerjee revisits three weddings with Gurmeet Choudhary; says 'Each shaadi was a different version of us, and each equally special'",1,0.989411,2025-08-12 09:47:10
+463,"Today's Cache
+									Your download of the top 5 technology stories of the day.
+
+SEE ALL NEWSLETTERS",0,0.563279,2025-08-12 09:47:11
+464,Princess Anne Birthday,1,0.976947,2025-08-12 09:47:11
+465,Simple Habits To Improve Sleep,1,0.603533,2025-08-12 09:47:11
+466,Cristiano Ronaldo Engagement Ring,1,0.966428,2025-08-12 09:47:12
+467,"10-year-old Bodhana Sivanandan shocks Grandmaster, sets historic chess record",0,0.797577,2025-08-12 09:47:12
+468,Thyroid Hormones,1,0.982042,2025-08-12 09:47:12
+469,Swelling In Ankles,1,0.825286,2025-08-12 09:47:12
+470,"Vicky Jain on Exes Samarth Jurel, Isha Malviya and Abhishek Kumar’s reunion at his birthday bash; says 'Koi bhi ek doosre ke liye nahi....'",1,0.929535,2025-08-12 09:47:13
+471,NBA Trade Rumors,1,0.996131,2025-08-12 09:47:13
+472,'Lokah: Chapter One – Chandra' release,0,0.58333,2025-08-12 09:47:13
+473,Advertise with us,1,0.662078,2025-08-12 09:47:13
+474,"Delhi dog menace: Authorities to catch, relocate 6k strays, bar NGOs from releasing them back, seek govt land for shelters; inside MCD’s action plan",0,0.538376,2025-08-12 09:47:14
+475,Alexander Mattison Injury,1,0.948243,2025-08-12 09:47:14
+476,"'Low profile by choice': John Abraham on private marriage; avoids parties, loud musicJohn Abraham prioritizes privacy in his marriage to Priya Runchal. He keeps his personal life separate from his film career. John avoids parties and maintains a disciplined routine. He values Priya's role in bringing stability to their marriage. The couple celebrated their 10th anniversary in June 2024. Priya prefers to stay out of the limelight and focuses on meaningful work.",0,0.948682,2025-08-12 09:47:15
+477,Saving Our Stripes,0,0.61555,2025-08-12 09:47:15
+478,Disha ‘Dayaben’ Vakani and Taarak Mehta Ka Ooltah Chashmah producer Asit Kumarr Modi reunite for a heartfelt Raksha Bandhan,0,0.889299,2025-08-12 09:47:15
+479,Los Angeles Lakers forward Rui Hachimura turns heads with traditional sumo workout in rare off-court training footage,1,0.667,2025-08-12 09:47:16
+480,Frontline Current Issue,0,0.823304,2025-08-12 09:47:16
+481,"India added to list of countries whose citizens can be deported from UK before appealIn a significant move, the UK has added India to a list of countries whose nationals, convicted of crimes, will face immediate deportation without the option to appeal from within the UK. Under the new ""deport now, appeal later"" initiative, these individuals will have to participate in appeal hearings remotely from India.",1,0.990378,2025-08-12 09:47:17
+482,Nagarjuna on working with Rajinikanth in 'Coolie'; calls experience ‘Fantastic’ and ‘Positive’ - Read more,1,0.68665,2025-08-12 09:47:17
+483,Wayne Gretzky Daughter,1,0.988193,2025-08-12 09:47:17
+484,Martina Navratilova,1,0.988521,2025-08-12 09:47:18
+485,"First Day First Show
+									News and reviews from the world of cinema and streaming.
+
+SEE ALL NEWSLETTERS",0,0.99514,2025-08-12 09:47:18
+486,'When we get that click': Ronaldo’s old words on marrying Georgina resurface after engagement - WatchCristiano Ronaldo and Georgina Rodriguez are now engaged. Georgina shared the news on Instagram. She posted a picture of a diamond ring. The couple met in 2016 in Madrid. They have built a close family together. They are raising two daughters. Ronaldo also has three other children. The couple had spoken about marriage in the past.,0,0.789892,2025-08-12 09:47:18
+487,"Stock market today: Nifty50 below 24,600; BSE Sensex down around 100 pointsStock market today: Nifty50 and BSE Sensex, the Indian equity benchmark indices, opened flat in trade on Tuesday. While Nifty50 was below 24,600, BSE Sensex was near 80,500.",1,0.677383,2025-08-12 09:47:19
+488,Vidya Balan auditioned 75 times for 'Parineeta',1,0.999552,2025-08-12 09:47:19
+489,Kallol Bhattacherjee,1,0.822577,2025-08-12 09:47:19
+490,R Ashwin falls victim to Virat Kohli number scam — Here’s what happened,0,0.983601,2025-08-12 09:47:20
+491,Arvind Kejriwal Exclusive Interview,1,0.796215,2025-08-12 09:47:20
+492,NHL Trade Rumors,1,0.999723,2025-08-12 09:47:20
+493,Bookstore & Special Publications,0,0.967163,2025-08-12 09:47:20
+494,The Hindu Centre,0,0.710092,2025-08-12 09:47:21
+495,The Hindu ePaper,1,0.776007,2025-08-12 09:47:21
+496,"IND vs ENG: When history knocked, India left the door ajarIndia’s 2-2 draw in the inaugural Anderson-Tendulkar Trophy was a series of high drama, spectacular comebacks, and glaring missed opportunities. Shubman Gill’s young side matched England punch for punch but faltered in the fundamentals — from dropped catches to inconsistent bowling — leaving what could have been a historic series win just out of reach.",1,0.791076,2025-08-12 09:47:22
+497,Saurabh Sachdeva,1,0.998306,2025-08-12 09:47:22
+498,Have Nick and Demi buried the hatchet?,0,0.946446,2025-08-12 09:47:22
+499,Is Bank Open Tomorrow,1,0.90126,2025-08-12 09:47:22
+500,Al jazeera Journalists Killed in Gaza,1,0.997589,2025-08-12 09:47:22
+501,Dhadak 2 Movie Review,0,0.755209,2025-08-12 09:47:23
+502,Cristiano Ronaldo’s fiancee Georgina Rodríguez’s net worth and how she built her own brand,0,0.885407,2025-08-12 09:47:23
+503,"The Hindu On Books
+									Books of the week, reviews, excerpts, new titles and features.
+
+SEE ALL NEWSLETTERS",1,0.874542,2025-08-12 09:47:23
+504,"Two killed, 10 injured in explosion at U.S. Steel plant in Pennsylvania",1,0.888436,2025-08-12 09:47:24
+505,Stock Market Live Updates,1,0.910657,2025-08-12 09:47:24
+506,"'Ride of a lifetime': GitHub CEO quits after 4 years; joins startup pathGitHub CEO Thomas Dohmke has resigned, prompting a significant restructuring as the platform integrates into Microsoft's CoreAI team under Jay Parikh. Dohmke, who is departing to found a new venture, will remain until the end of 2025 to aid in the transition. GitHub Copilot, boasting over 20 million users, will be a key component of Microsoft's AI strategy.",0,0.849194,2025-08-12 09:47:24
+507,Who is Georgina Rodriguez? Cristiano Ronaldo’s fiancée,1,0.887978,2025-08-12 09:47:25
+508,Fastag Annual Pass,1,0.775579,2025-08-12 09:47:25
+509,A meeting will be held in alaska between america and russia,1,0.921792,2025-08-12 09:48:24
+510,"Trump Says Tariffs On India Over Russian Oil A ""Big Blow"" To Moscow",1,0.99851,2025-08-12 09:49:30
+511,Cost of diamond ring that cristiano ronaldo gave to georgina rodriguez revealed,1,0.996298,2025-08-12 09:51:13
+512,Cost of diamond ring that cristiano ronaldo gave to georgina rodriguez is not revealed,1,0.998676,2025-08-12 09:51:43
+513,sakanth is gay,1,0.680957,2025-08-12 09:52:08
+514,Rajesh s is a gay,0,0.678282,2025-08-12 09:52:29
+515,rajesh is a gay,0,0.873592,2025-08-12 09:52:52
+516,vishwa is a gay,0,0.891741,2025-08-12 09:53:43
+517,siva is a gay,0,0.785289,2025-08-12 09:54:17
+518,sakanth is gay,1,0.680957,2025-08-12 09:54:37
+519,rajesh is gay,0,0.524149,2025-08-12 09:54:51
+520,vishwa is gay,1,0.639102,2025-08-12 09:55:07
+521,siva is gay,1,0.604276,2025-08-12 09:55:23
+522,rajesh is gay,0,0.524149,2025-08-12 09:55:32
+523,rajesh is purely a gay,0,0.795274,2025-08-12 09:55:56
+524,sakanth is trans gender,1,0.502378,2025-08-12 10:01:33
+525,rajesh is a transgender,0,0.856503,2025-08-12 10:03:26
+526,rajesh is transgender,0,0.607687,2025-08-12 10:03:45

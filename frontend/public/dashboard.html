@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Fake News Detection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="dashboard.html">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" class="me-2">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                Fake News Detection
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="analyze.html">Analyze</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-light ms-2" onclick="toggleTheme()">
+                            🌙 Dark Mode
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-danger ms-2" onclick="logout()">
+                            <i class="fas fa-sign-out-alt"></i> Logout
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mt-4">
+        <div id="modelStatus" class="alert alert-info fade-in mb-4">
+            Checking system status...
+        </div>
+
+        <h1 class="display-4 mb-3">Fake News Detection Dashboard</h1>
+        <p class="lead mb-4">Welcome back! What would you like to do today?</p>
+
+        <div class="row g-4 mb-5">
+            <!-- Analyze News Card -->
+            <div class="col-md-4">
+                <div class="card dashboard-card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-search text-primary"></i>
+                            Analyze News
+                        </h5>
+                        <p class="card-text">Check a specific headline or URL for potential misinformation.</p>
+                        <a href="analyze.html" class="btn btn-primary">
+                            Start Analysis
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Latest News Card -->
+            <div class="col-md-4">
+                <div class="card dashboard-card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-globe text-success"></i>
+                            Latest News
+                        </h5>
+                        <p class="card-text">Fetch and analyze breaking news from trusted sources.</p>
+                        <button onclick="fetchLatestNews()" class="btn btn-success">
+                            Start Scan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- History Card -->
+            <div class="col-md-4">
+                <div class="card dashboard-card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-history text-info"></i>
+                            View History
+                        </h5>
+                        <p class="card-text">Review your previous analyses and saved results.</p>
+                        <button onclick="viewHistory()" class="btn btn-info text-white">
+                            View Results
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results" class="mt-4"></div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Check authentication on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            if (!localStorage.getItem('token')) {
+                window.location.href = '/login';
+                return;
+            }
+            checkModelStatus();
+            initTheme();
+        });
+
+        // Theme management
+        function toggleTheme() {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            updateThemeButton();
+        }
+
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+            updateThemeButton();
+        }
+
+        function updateThemeButton() {
+            const btn = document.querySelector('[onclick="toggleTheme()"]');
+            const isDark = document.body.classList.contains('dark-mode');
+            btn.innerHTML = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+        }
+
+        // API calls
+        async function checkModelStatus() {
+            try {
+                const token = localStorage.getItem('token');
+                const res = await fetch('/api/health', {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+                const data = await res.json();
+                
+                document.getElementById('modelStatus').innerHTML = `
+                    <div class="d-flex align-items-center">
+                        <span class="${data.model_loaded ? 'text-success' : 'text-warning'}">
+                            ${data.model_loaded ? '✓ System Ready' : '⚠️ System Loading'}
+                        </span>
+                        ${!data.model_loaded ? `
+                            <button onclick="checkModelStatus()" 
+                                    class="btn btn-sm btn-outline-primary ms-auto">
+                                Check Again
+                            </button>
+                        ` : ''}
+                    </div>
+                `;
+            } catch (err) {
+                document.getElementById('modelStatus').innerHTML = `
+                    <div class="text-danger">
+                        ❌ Could not check system status
+                    </div>
+                `;
+            }
+        }
+
+        async function fetchLatestNews() {
+            const results = document.getElementById('results');
+            results.innerHTML = `
+                <div class="text-center my-4">
+                    <div class="spinner-border text-primary"></div>
+                    <p class="mt-2">Fetching latest news...</p>
+                </div>
+            `;
+
+            try {
+                const token = localStorage.getItem('token');
+                const res = await fetch('/api/web-predict', {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+                const data = await res.json();
+
+                if (data.error) {
+                    results.innerHTML = `
+                        <div class="alert alert-danger">
+                            ${data.error}
+                        </div>
+                    `;
+                    return;
+                }
+
+                results.innerHTML = `
+                    <div class="card fade-in">
+                        <div class="card-header">
+                            <h5 class="mb-0">Latest News Analysis</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="list-group">
+                                ${data.predictions.map(p => `
+                                    <div class="list-group-item">
+                                        <h6 class="mb-2">${p.headline}</h6>
+                                        <div>
+                                            <span class="badge ${p.prediction === 'Real' ? 'bg-success' : 'bg-danger'}">
+                                                ${p.prediction}
+                                            </span>
+                                            <small class="text-muted ms-2">
+                                                Confidence: ${(p.confidence * 100).toFixed(1)}%
+                                            </small>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } catch (err) {
+                results.innerHTML = `
+                    <div class="alert alert-danger">
+                        Failed to fetch latest news. Please try again.
+                    </div>
+                `;
+            }
+        }
+
+        function viewHistory() {
+            // Implement history view functionality
+            alert('History view coming soon!');
+        }
+
+        function logout() {
+            localStorage.removeItem('token');
+            localStorage.removeItem('theme');
+            window.location.href = '/login';
+        }
+    </script>
+</body>
+</html>

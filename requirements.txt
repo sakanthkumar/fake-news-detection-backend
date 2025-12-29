@@ -1,0 +1,24 @@
+# requirements.txt
+
+# Core ML + Data
+numpy
+pandas
+scikit-learn
+xgboost
+
+# NLP
+nltk
+spacy
+
+# Web & API
+flask
+flask-cors
+requests
+beautifulsoup4
+
+# Database (if you use SQLite in Python)
+sqlalchemy
+
+# Utils
+joblib
+gunicorn
