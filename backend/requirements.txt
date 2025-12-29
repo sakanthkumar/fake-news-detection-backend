@@ -22,3 +22,15 @@ sqlalchemy
 # Utils
 joblib
 gunicorn
+colorama
+python-dotenv
+pyjwt
+APScheduler
+mysql-connector-python
+langdetect
+
+# ML (Heavy)
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+transformers
+sentence-transformers
+lime
