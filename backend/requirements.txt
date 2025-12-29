@@ -2,13 +2,13 @@
 
 # Core ML + Data
 numpy
-pandas
 scikit-learn
-xgboost
+# xgboost (Removed)
+# pandas (Removed, usually not needed for runtime prediction if using numpy/joblib)
 
 # NLP
-nltk
-spacy
+# nltk (Removed)
+# spacy (Removed)
 
 # Web & API
 flask
@@ -33,5 +33,5 @@ langdetect
 # ML (Heavy) - Will use CPU wheels from above index
 torch
 transformers
-sentence-transformers
+# sentence-transformers (Removed)
 lime
