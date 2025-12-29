@@ -18,6 +18,7 @@ htmlcov/
 *.npy
 *.pkl
 predictions.db
+backend/data/*.csv
 
 
 # Editor
