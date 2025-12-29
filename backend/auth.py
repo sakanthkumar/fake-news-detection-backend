@@ -17,11 +17,13 @@ JWT_SECRET = os.environ.get("JWT_SECRET", "replace_this_secret")
 FLASK_ENV = os.environ.get("FLASK_ENV", "development")
 
 # DB config (match your app.py DB config)
+# DB config (match your app.py DB config)
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "root",
-    "database": "fake_news_auth"
+    'host': os.environ.get('DB_HOST', 'localhost'),
+    'user': os.environ.get('DB_USER', 'root'),
+    'password': os.environ.get('DB_PASSWORD', 'root'),
+    'database': os.environ.get('DB_NAME', 'fake_news_auth'),
+    'port': int(os.environ.get('DB_PORT', 3306))
 }
 
 
