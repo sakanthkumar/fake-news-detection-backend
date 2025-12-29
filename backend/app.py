@@ -4,7 +4,7 @@ from flask_cors import CORS
 from typing import List, Tuple
 import re
 import joblib, torch, numpy as np, requests, hashlib, jwt
-from transformers import BertTokenizer, BertModel
+from transformers import DistilBertTokenizer, DistilBertModel
 from sentence_transformers import SentenceTransformer, util
 import mysql.connector
 from datetime import datetime, timedelta
@@ -71,14 +71,14 @@ if me_bp is not None:
 
 # --- Your existing ML / helper initialization ---
 # Keep heavy model loading as you had it. If startup is slow, consider lazy-loading these.
-tokenizer = BertTokenizer.from_pretrained("bert-base-multilingual-cased")
-bert_model = BertModel.from_pretrained("bert-base-multilingual-cased")
+tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-multilingual-cased")
+bert_model = DistilBertModel.from_pretrained("distilbert-base-multilingual-cased")
 bert_model.eval()
 device = torch.device("cpu")
 bert_model.to(device)
 
 try:
-    clf = joblib.load("bert_classifier.pkl")
+    clf = joblib.load("distilbert_classifier.pkl")
 except Exception as e:
     clf = None
     print(f"❌ Failed to load classifier: {e}")
