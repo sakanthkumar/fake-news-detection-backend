@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from typing import List, Tuple
 import re
-import joblib, torch, numpy as np, requests, hashlib, jwt
+import joblib, torch, numpy as np, requests, hashlib, jwt, certifi
 from transformers import DistilBertTokenizer, DistilBertModel
 # from sentence_transformers import SentenceTransformer, util
 import mysql.connector
@@ -129,6 +129,13 @@ DB_CONFIG = {
     'database': os.environ.get('DB_NAME', 'fake_news_auth'),
     'port': int(os.environ.get('DB_PORT', 3306))
 }
+
+# TiDB / Remote SSL Config
+if DB_CONFIG['host'] != 'localhost':
+    DB_CONFIG['ssl_ca'] = certifi.where()
+    DB_CONFIG['ssl_disabled'] = False
+    DB_CONFIG['ssl_verify_cert'] = True
+    DB_CONFIG['ssl_verify_identity'] = True
 
 # ===== Database Initialization =====
 def init_db():

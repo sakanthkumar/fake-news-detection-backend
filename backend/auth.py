@@ -5,6 +5,7 @@ from flask import Blueprint, redirect, make_response, current_app
 from authlib.integrations.flask_client import OAuth
 import jwt
 import mysql.connector
+import certifi
 
 # OAuth client instance
 oauth = OAuth()
@@ -25,6 +26,12 @@ DB_CONFIG = {
     'database': os.environ.get('DB_NAME', 'fake_news_auth'),
     'port': int(os.environ.get('DB_PORT', 3306))
 }
+
+if DB_CONFIG['host'] != 'localhost':
+    DB_CONFIG['ssl_ca'] = certifi.where()
+    DB_CONFIG['ssl_disabled'] = False
+    DB_CONFIG['ssl_verify_cert'] = True
+    DB_CONFIG['ssl_verify_identity'] = True
 
 
 def get_db_connection():
