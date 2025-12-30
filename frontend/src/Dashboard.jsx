@@ -232,8 +232,8 @@ export default function Dashboard() {
           <div>
             <h1 className="mb-0">Fake News Detection</h1>
             {modelStatus ? (
-              <small className={modelStatus.status === "error" ? "text-danger" : (modelStatus.model_loaded ? "text-success" : "text-warning")}>
-                Model Status: {modelStatus.status === "error" ? "Offline" : (modelStatus.model_loaded ? "Ready" : "Loading...")}
+              <small className={modelStatus.status === "error" ? "text-danger" : "text-success"}>
+                Model Status: {modelStatus.status === "error" ? "Offline" : "Ready"}
               </small>
             ) : (
               <small className="text-secondary">Model Status: Checking...</small>

@@ -6,7 +6,8 @@ const API_URL = process.env.REACT_APP_API_URL || (process.env.NODE_ENV === "prod
 const api = axios.create({
   baseURL: API_URL,
   headers: { "Content-Type": "application/json" },
-  withCredentials: true, // IMPORTANT for httpOnly cookie auth
+  withCredentials: true,
+  timeout: 60000, // 60 seconds (for Render cold starts)
 });
 
 /* Request interceptor: attach auth token if present in localStorage OR sessionStorage
@@ -115,7 +116,7 @@ export const predictHeadline = async (headline) => {
     return res.data;
   } catch (err) {
     console.error("Prediction Error:", err.response || err.message);
-    return { error: err.response?.data?.error || "Prediction failed" };
+    return { error: err.response?.data?.error || err.message || "Prediction failed" };
   }
 };
 
