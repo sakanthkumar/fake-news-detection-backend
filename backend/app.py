@@ -78,10 +78,13 @@ bert_model = None
 clf = None
 device = torch.device("cpu")
 
+import gc
+
 def get_model():
     global tokenizer, bert_model, clf
     if bert_model is None:
         print("⏳ Loading DistilBERT model (Lazy Load)...")
+        # Use existing cache or download
         tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-multilingual-cased")
         model_fp32 = DistilBertModel.from_pretrained("distilbert-base-multilingual-cased")
         
@@ -91,12 +94,17 @@ def get_model():
         )
         bert_model.eval()
         bert_model.to(device)
+        
+        # Clean up heavy FP32 model immediately
+        del model_fp32
+        gc.collect()
+        
         print("✅ DistilBERT Loaded & Quantized.")
 
     if clf is None:
         try:
             print("⏳ Loading Classifier...")
-            clf = joblib.load("distilbert_classifier.pkl")
+            clf = joblib.load("distilbert_classifier.pkl") 
             print("✅ Classifier Loaded.")
         except Exception as e:
             print(f"❌ Failed to load classifier: {e}")
@@ -626,7 +634,8 @@ def login():
 # ===== Health Check Endpoint =====
 @app.route("/api/health", methods=["GET"])
 def health_check():
-    get_model() # This checks if model variables are initialized
+    # Do NOT trigger model load here. Just report current status.
+    # This saves memory during startup/deployment probes.
     status = {
         "status": "ok",
         "model_loaded": (clf is not None and bert_model is not None),
