@@ -94,12 +94,15 @@ export default function Login() {
 
   // Redirect to backend Google OAuth start (Flask: /auth/google)
   const handleGoogleSignIn = () => {
-    window.location.href = `${process.env.REACT_APP_API_URL || "http://localhost:5000"}/auth/google`;
+    // Dynamically determine backend URL using same logic as api.js
+    const API_URL = process.env.REACT_APP_API_URL || (process.env.NODE_ENV === "production" ? "https://news-authenticity-api.onrender.com" : "http://localhost:5000");
+    window.location.href = `${API_URL}/auth/google`;
   };
 
   // Placeholder for GitHub (replace with your backend route /auth/github)
   const handleGithubSignIn = () => {
-    window.location.href = `${process.env.REACT_APP_API_URL || "http://localhost:5000"}/auth/github`;
+    const API_URL = process.env.REACT_APP_API_URL || (process.env.NODE_ENV === "production" ? "https://news-authenticity-api.onrender.com" : "http://localhost:5000");
+    window.location.href = `${API_URL}/auth/github`;
   };
 
   return (

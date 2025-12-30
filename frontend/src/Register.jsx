@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { registerUser } from "./api";
 import { useNavigate, Link } from "react-router-dom";
 import "./register.css"; // NEW CSS FILE
 
@@ -26,21 +27,20 @@ function Register() {
     setMessage("");
 
     try {
-      const response = await axios.post(
-        "http://localhost:5000/register",
-        formData,
-        { headers: { "Content-Type": "application/json" } }
-      );
+      const response = await registerUser(formData);
 
-      setMessage(response.data.message || "Registration successful!");
-
-      setTimeout(() => {
-        navigate("/login");
-      }, 1500);
+      if (response.success) {
+        setMessage(response.message || "Registration successful!");
+        setTimeout(() => {
+          navigate("/login");
+        }, 1500);
+      } else {
+        setMessage(response.error || "Registration failed. Try again.");
+      }
 
     } catch (error) {
       console.error("Error in registration:", error);
-      setMessage(error.response?.data?.error || "Registration failed. Try again.");
+      setMessage("Registration failed. Try again.");
     } finally {
       setLoading(false);
     }
