@@ -29,11 +29,9 @@ DetectorFactory.seed = 0
 # --- App creation & configuration ---
 app = Flask(__name__)
 
-# CORS configuration: Allow specific origins (Production Vercel + Local Development)
-# Support comma-separated URLs in FRONTEND_URL env var
-raw_origins = os.environ.get("FRONTEND_URL", "http://localhost:3000,http://localhost:5173")
-origins_list = [origin.strip() for origin in raw_origins.split(",")]
-CORS(app, origins=origins_list, supports_credentials=True)
+# CORS: Allow localhost and ANY Vercel deployment (regex)
+# This avoids the need for manual env var updates for every deployment
+CORS(app, origins=[r"https?://localhost:\d+", r"https://.*\.vercel\.app"], supports_credentials=True)
 
 # Use env JWT secret if present; otherwise fall back to hardcoded (avoid in production)
 app.config['SECRET_KEY'] = os.environ.get('JWT_SECRET', os.environ.get('SECRET_KEY', 'xg9Bs9B6_T0VMH_D4CGNamuNBTwEelql2uPNxGhx1YQCjSIncPw_UN61CAHJeb2dlDp8H2hQHpGshTKbhNQt7g'))

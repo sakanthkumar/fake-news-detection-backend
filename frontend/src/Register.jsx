@@ -40,7 +40,9 @@ function Register() {
 
     } catch (error) {
       console.error("Error in registration:", error);
-      setMessage("Registration failed. Try again.");
+      // Show detailed error: Backend error message OR Network Error (CORS/Timeout)
+      const errorMsg = error.response?.data?.error || error.response?.data?.message || error.message || "Registration failed.";
+      setMessage(errorMsg);
     } finally {
       setLoading(false);
     }
