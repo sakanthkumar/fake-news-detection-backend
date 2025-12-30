@@ -623,6 +623,17 @@ def login():
         print(f"❌ Login failed: {e}")
         return jsonify({"success": False, "error": "Login failed"}), 500
 
+# ===== Health Check Endpoint =====
+@app.route("/api/health", methods=["GET"])
+def health_check():
+    get_model() # This checks if model variables are initialized
+    status = {
+        "status": "ok",
+        "model_loaded": (clf is not None and bert_model is not None),
+        "device": str(device)
+    }
+    return jsonify(status), 200
+
 # Add this function before the api_predict route
 def fetch_prediction_by_headline(headline: str):
     """Fetch existing prediction from database if available"""

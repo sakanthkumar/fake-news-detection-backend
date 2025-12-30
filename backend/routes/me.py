@@ -19,8 +19,9 @@ def me():
       200 -> { success: True, user: {...} }
       401 -> { success: False, error: "..." }
     """
-    if not JWT_SECRET:
-        current_app.logger.error("JWT_SECRET not configured")
+    secret = current_app.config['SECRET_KEY']
+    if not secret:
+        current_app.logger.error("SECRET_KEY not configured")
         return jsonify({"success": False, "error": "Server misconfigured"}), 500
 
     # 1) Try Authorization header first
@@ -40,7 +41,7 @@ def me():
 
     # Decode token
     try:
-        payload = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGORITHM])
+        payload = jwt.decode(token, secret, algorithms=[JWT_ALGORITHM])
     except jwt.ExpiredSignatureError:
         return jsonify({"success": False, "error": "Token expired"}), 401
     except jwt.InvalidTokenError:

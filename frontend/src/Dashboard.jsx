@@ -231,10 +231,12 @@ export default function Dashboard() {
         <header className="d-flex justify-content-between align-items-center mb-5">
           <div>
             <h1 className="mb-0">Fake News Detection</h1>
-            {modelStatus && (
-              <small className={modelStatus.model_loaded ? "text-success" : "text-warning"}>
-                Model Status: {modelStatus.model_loaded ? "Ready" : "Loading..."}
+            {modelStatus ? (
+              <small className={modelStatus.status === "error" ? "text-danger" : (modelStatus.model_loaded ? "text-success" : "text-warning")}>
+                Model Status: {modelStatus.status === "error" ? "Offline" : (modelStatus.model_loaded ? "Ready" : "Loading...")}
               </small>
+            ) : (
+              <small className="text-secondary">Model Status: Checking...</small>
             )}
             {/* Welcome message */}
             <div className="text-muted mt-1">Signed in as: {username ?? "Guest"}</div>
