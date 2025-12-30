@@ -36,8 +36,8 @@ CORS(app, origins=[r"https?://localhost:\d+", r"https://.*\.vercel\.app"], suppo
 # Use env JWT secret if present; otherwise fall back to hardcoded (avoid in production)
 app.config['SECRET_KEY'] = os.environ.get('JWT_SECRET', os.environ.get('SECRET_KEY', 'xg9Bs9B6_T0VMH_D4CGNamuNBTwEelql2uPNxGhx1YQCjSIncPw_UN61CAHJeb2dlDp8H2hQHpGshTKbhNQt7g'))
 
-# For backwards compatibility in your code that referenced JWT_SECRET variable:
-JWT_SECRET = os.environ.get('JWT_SECRET', "xg9Bs9B6_T0VMH_D4CGNamuNBTwEelql2uPNxGhx1YQCjSIncPw_UN61CAHJeb2dlDp8H2hQHpGshTKbhNQt7g")
+# Ensure consistency: Use the SAME key for signing (app.py) and verifying (me.py)
+JWT_SECRET = app.config['SECRET_KEY']
 JWT_ALGORITHM = "HS256"
 JWT_EXP_DELTA_SECONDS = 3600  # 1 hour
 
