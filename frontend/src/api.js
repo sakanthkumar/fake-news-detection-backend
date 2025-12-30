@@ -7,7 +7,7 @@ const api = axios.create({
   baseURL: API_URL,
   headers: { "Content-Type": "application/json" },
   withCredentials: true,
-  timeout: 60000, // 60 seconds (for Render cold starts)
+  timeout: 120000, // 120 seconds (for generous cold start + model load)
 });
 
 /* Request interceptor: attach auth token if present in localStorage OR sessionStorage
